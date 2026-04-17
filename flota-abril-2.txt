@@ -6,6 +6,7 @@ SEGUNDA OLA
 Webcast
 
 💰 COST PER UNIT TOOLS (Cloud / APIs / Infra)
+cloud-cost-calculators
 
 api cost per 1 million requests calculator
 websocket cost per connection estimator
@@ -19,6 +20,7 @@ ai inference cost per token vs per request
 queue system cost per message calculator
 
 📈 SCALING COST SIMULATORS (SaaS / Cloud / Backend)
+scaling-cost-simulators
 
 startup infra cost scaling simulator
 api cost growth projection tool
@@ -32,6 +34,7 @@ firebase cost scaling calculator
 supabase pricing growth simulator
 
 🔄 WHAT IF COST TOOLS (Architecture / Decisions)
+what-if-cost-calculators
 
 what if i switch from aws to cloudflare cost calculator
 what if i move from monolith to microservices cost estimator
@@ -41,6 +44,7 @@ what if i move to serverless cost comparison tool
 what if i change database engine cost estimator
 
 🧨 HIDDEN COST DETECTORS (Cloud / Infra / Backend)
+hidden-cloud-cost-detectors
 
 hidden cloud costs detector estimator
 unused resources cost calculator
@@ -52,6 +56,7 @@ wasted bandwidth cost calculator
 inefficient query cost impact tool
 
 ⚖️ COST VS PERFORMANCE TOOLS (Engineering / Optimization)
+cost-vs-performance-calculators
 
 latency vs cost tradeoff calculator
 performance optimization cost impact tool
@@ -62,6 +67,7 @@ cdn vs origin cost comparison tool
 edge vs server cost efficiency calculator
 
 🧾 BILL BREAKDOWN TOOLS (Cloud / SaaS
+cloud-bill-breakdown-tools
 
 aws bill breakdown simulator
 gcp cost breakdown visualizer
@@ -71,6 +77,7 @@ cloud invoice explainer simulator
 subscription stack cost calculator
 
 💸 COST OPTIMIZATION TOOLS (Savings / Efficiency)
+cloud-cost-optimization-tools
 
 cloud cost optimization estimator
 api cost reduction calculator
@@ -81,6 +88,7 @@ cdn optimization savings calculator
 lambda memory optimization cost impact
 
 🆚 PRICING COMPARISON TOOLS (Cross-platform / SaaS)
+cloud-pricing-comparison-tools
 
 firebase vs supabase cost at scale
 vercel vs cloudflare workers pricing simulator
@@ -91,6 +99,7 @@ kubernetes vs serverless cost comparison
 
 
 💰 CLOUD + INFRA COST (más profundo)
+cloud-infra-cost-estimators
 
 aws lambda cost per cold start estimator
 aws ec2 cost per cpu utilization calculator
@@ -111,6 +120,7 @@ netlify function cost per invocation estimator
 digitalocean droplet cost per workload calculator
 
 📊 DATABASE COST (muy infravalorado 🔥
+database-cost-calculators
 
 mysql cost per query complexity estimator
 postgresql cost per index vs query performance tool
@@ -124,6 +134,7 @@ influxdb cost per time series storage estimator
 sqlite cost vs memory usage calculator
 
 ⚙️ BACKEND / API COST
+backend-api-cost-calculators
 
 nodejs api cost per request vs concurrency calculator
 deno vs node api cost per execution estimator
@@ -139,6 +150,7 @@ rails cost per active record query estimator
 phoenix elixir cost per concurrent connection
 
 🌐 FRONTEND COST IMPACT (muy poco explotado)
+frontend-cost-impact-tools
 
 react bundle size cost impact on cdn calculator
 nextjs ssr cost per request vs static generation
@@ -149,6 +161,7 @@ astro island architecture cost vs performance
 vite vs webpack build cost per deployment estimator
 
 🤖 AI / LLM COST (🔥 MUY IMPORTANTE)
+ai-llm-cost-calculators
 
 openai cost per conversation estimator
 openai token cost per feature calculator
@@ -160,6 +173,7 @@ fine tuning cost vs inference cost estimator
 ai api cost per latency vs accuracy tradeoff
 
 💳 PAYMENT / TRANSACTION COST
+payment-transaction-cost-calculators
 
 stripe cost per transaction by country calculator
 paypal fee per payment vs currency estimator
@@ -170,6 +184,7 @@ subscription churn cost impact estimator
 transaction fee vs conversion rate calculator
 
 📦 DEVOPS / CI-CD COST
+devops-cicd-cost-calculators
 
 github actions cost per workflow run estimator
 gitlab ci cost per pipeline minute calculator
@@ -182,6 +197,7 @@ kubernetes cost per deployment vs autoscaling
 helm deployment cost impact estimator
 
 🔐 SECURITY COST (muy nicho, poco competido)
+security-breach-cost-estimators
 
 api security breach cost impact estimator
 ddos attack cost per downtime calculator
@@ -191,6 +207,7 @@ jwt misuse cost risk calculator
 
 
 📉 PERFORMANCE → MONEY (esto es oro
+performance-to-revenue-calculators
 
 latency cost per 100ms delay revenue impact calculator
 slow api response cost per user drop estimator
@@ -202,6 +219,7 @@ memory leak cost per hour server waste calculator
 
 
 🧠 CROSS TECH (muy alineado a tu flota actual)
+cross-tech-cost-comparison-tools
 
 nodejs vs go api cost per request calculator
 python vs rust backend cost efficiency estimator
@@ -214,6 +232,7 @@ docker vs kubernetes cost comparison calculator
 serverless vs container cost per workload
 
 🧨 MICRO-NICHOS (donde puedes posicionar rápido)
+micro-niche-cloud-cost-calculators
 
 firebase firestore cost per query vs realtime usage
 supabase cost per row level security query estimator
@@ -224,6 +243,7 @@ twilio voice call cost per minute estimator
 
 
 💰 CLOUD / SERVERLESS COST (100)
+serverless-cloud-cost-calculators
 
 aws lambda cost per request calculator with memory and duration
 aws lambda cold start cost impact estimator
@@ -277,6 +297,7 @@ api cost per 1 million requests multi cloud estimator
 
 
 📊 DATABASE COST (60
+database-query-cost-calculators
 
 
 mysql cost per query vs index usage calculator
@@ -304,6 +325,7 @@ database cost per index vs no index calculator
 database cost per query optimization savings estimator
 
 ⚙️ BACKEND / API COST (60
+api-backend-cost-estimators
 
 nodejs api cost per request vs concurrency calculator
 nodejs memory usage cost per request estimator
@@ -328,6 +350,7 @@ api error rate cost impact calculator
 api retry cost impact estimator
 
 🌐 FRONTEND / WEB COST IMPACT (40
+frontend-web-cost-impact-tools
 
 react bundle size cost per user bandwidth calculator
 react rerender cost impact estimator
@@ -348,6 +371,7 @@ css size cost per render performance estimator
 
 
 🤖 AI / LLM COST (50)
+llm-api-cost-calculators
 
 openai cost per conversation calculator with tokens
 openai token cost per feature estimator
@@ -368,6 +392,7 @@ ai cost per feature rollout estimator
 ai cost per realtime vs batch processing calculator
 
 💳 PAYMENTS / TRANSACTIONS (40
+payment-processing-cost-tools
 
 stripe cost per transaction by country calculator
 paypal fee per payment vs currency estimator
@@ -382,6 +407,7 @@ tax + payment fee total cost calculator ecommerce
 
 
 📦 DEVOPS / CI-CD COST (30
+cicd-pipeline-cost-calculators
 
 github actions cost per workflow run estimator
 github actions cost per minute vs usage calculator
@@ -399,6 +425,7 @@ ci cd pipeline cost per deployment calculator
 
 
 🔐 SECURITY COST (20
+security-incident-cost-estimators
 
 security breach cost per downtime estimator
 ddos attack cost per hour downtime calculator
@@ -411,6 +438,7 @@ security incident cost per response time estimator
 
 
 📉 PERFORMANCE → MONEY (3
+performance-revenue-impact-tools
 
 latency cost per 100ms delay revenue calculator
 page load time cost vs conversion rate estimator
@@ -425,6 +453,7 @@ bandwidth waste cost per gb estimator
 
 
 🆚 CROSS TECH COST (30)
+tech-stack-cost-comparison-tools
 
 nodejs vs go api cost per request calculator
 python vs rust backend cost efficiency estimator
@@ -441,6 +470,7 @@ edge vs server cost per request comparison
 
 
 1. Greeks Tools Expansion
+options-greeks-calculators
 
 real time options greeks calculator
 multi leg options greeks analyzer
@@ -455,6 +485,7 @@ greeks adjustment calculator hedging
 
 
 2. P&L Scenario Tools (muy explotable)
+options-pnl-scenario-tools
 
 options pnl simulator by price and time
 multi scenario options profit calculator
@@ -469,6 +500,7 @@ options trade outcome probability estimator
 
 
 3. Break-even & Strategy Builders
+options-breakeven-strategy-builders
 
 options break even calculator multi leg
 iron condor break even calculator
@@ -483,6 +515,7 @@ options arbitrage opportunity calculator
 
 
 4. Time & Expiration Tools
+options-expiration-time-tools
 
 days to expiration options calculator
 options theta decay timeline visualizer
@@ -495,6 +528,7 @@ weekly options expiration tracker
 options time value decay estimator
 
 5. Volatility (IV) — 🔥 MUY CLAVE
+options-implied-volatility-tools
 
 implied volatility rank calculator historical
 iv percentile calculator options
@@ -509,6 +543,7 @@ high iv premium selling opportunities finder
 
 
 6. Order Flow & Market Microstructure
+options-order-flow-analyzers
 
 options unusual activity detector tool
 options flow analyzer real time
@@ -520,6 +555,7 @@ options liquidity analyzer bid ask spread
 
 
 7. Risk Management Tools
+options-risk-management-calculators
 
 options position sizing calculator risk based
 max portfolio risk calculator options traders
@@ -532,6 +568,7 @@ portfolio stress test options scenarios
 
 
 8. Probability & Statistics
+options-probability-calculators
 
 probability of profit calculator options
 options win rate simulator strategy based
@@ -543,6 +580,7 @@ probability itm otm calculator options
 
 
 9. Strategy-Specific Tools (SEO GOLD)
+options-strategy-specific-tools
 
 iron condor optimizer tool
 credit spread screener high probability
@@ -556,6 +594,7 @@ calendar spread profit analyzer
 
 
 10. Earnings & Events Trading
+options-earnings-event-tools
 
 options earnings move predictor
 expected move calculator earnings options
@@ -567,6 +606,7 @@ options gap risk calculator news events
 ￼
 
 🔥 CORE — OPTIONS STRATEGY BUILDERS
+options-strategy-builders
 
 1. Visual Spread Builders (TU BASE MÁS FUERTE)
 
@@ -692,6 +732,7 @@ multi scenario strategy tester options
 
 
 🔥 CORE — RISK MANAGEMENT (OPTIONS)
+options-risk-management-tools
 
 1. Position Sizing Tools (🔥 PRIORIDAD #1)
 
@@ -1115,6 +1156,7 @@ Uso práctico:
 ￼
 
 🔵 Antes del embarazo (TTC — Trying to Conceive)
+ttc-fertility-calculators
 	•	ovulation calculator
 	•	fertile window calculator
 	•	ovulation predictor
@@ -1131,6 +1173,7 @@ Uso práctico:
 
 
 🟢 Durante el embarazo — core
+pregnancy-week-calculators
 	•	due date calculator
 	•	how many weeks pregnant am I
 	•	pregnancy week calculator
@@ -1141,6 +1184,7 @@ Uso práctico:
 	•	IVF due date calculator
 
 🟡 Salud y seguimiento
+pregnancy-health-trackers
 	•	pregnancy weight gain calculator
 	•	hCG level calculator
 	•	hCG doubling time calculator
@@ -1156,6 +1200,7 @@ Uso práctico:
 	•	labor probability calculator
 
 🟠 Genética / predicción del bebé (muy popular, mucho tráfico)
+baby-prediction-calculators
 	•	baby blood type calculator
 	•	baby eye color predictor
 	•	baby hair color predictor
@@ -1168,6 +1213,7 @@ Uso práctico:
 
 
 🔴 Preparación para el parto
+birth-preparation-tools
 	•	hospital bag checklist
 	•	birth plan builder
 	•	prenatal appointment schedule
@@ -1177,6 +1223,7 @@ Uso práctico:
 
 
 🟣 Post-parto y recién nacido
+postpartum-newborn-calculators
 	•	breastfeeding calculator
 	•	feeding schedule calculator
 	•	baby weight percentile calculator
@@ -1187,6 +1234,7 @@ Uso práctico:
 
 
 💼 Laboral / financiero (nicho con intención alta)
+maternity-leave-calculators
 	•	maternity leave calculator
 	•	paternity leave calculator
 	•	maternity pay calculator
@@ -1197,6 +1245,7 @@ Uso práctico:
 
 
 🎉 Fun / virales (bajo competencia, compartibles)
+pregnancy-fun-viral-tools
 	•	baby shower bingo generator
 	•	pregnancy excuse generator
 	•	pregnancy time capsule (qué pasaba en el mundo cuando nació)
@@ -1211,6 +1260,7 @@ Uso práctico:
 🔵 FASE 1 — ESTRATEGIA / PLANIFICACIÓN
 (Antes de crear contenido o lanzar campañas)
 Investigación de keywords
+seo-strategy-planning-tools
 	•	keyword research tool
 	•	keyword difficulty checker
 	•	search volume checker
@@ -1242,6 +1292,7 @@ Planificación de contenido
 🟢 FASE 2 — CREACIÓN / ON-PAGE
 (Durante la producción de contenido y páginas)
 Optimización de texto
+seo-on-page-optimization-tools
 	•	readability score checker
 	•	reading level calculator
 	•	word count checker
@@ -1272,6 +1323,7 @@ Imágenes
 🟡 FASE 3 — SEO TÉCNICO
 (Infraestructura que afecta directamente el tráfico)
 Rastreo e indexación
+technical-seo-tools
 	•	robots.txt generator
 	•	robots.txt tester
 	•	XML sitemap generator
@@ -1307,6 +1359,7 @@ Estructura
 🟠 FASE 4 — TRÁFICO PAGADO (PPC / ADS)
 (Campañas de pago para traer tráfico)
 Métricas base
+ppc-ads-cost-calculators
 	•	CPC calculator (cost per click)
 	•	CPM calculator (cost per mille)
 	•	CPV calculator (cost per view)
@@ -1332,6 +1385,7 @@ Planificación de campañas
 🔴 FASE 5 — ANÁLISIS DE TRÁFICO
 (Medir y entender el tráfico existente)
 Volumen y fuentes
+website-traffic-analysis-tools
 	•	website traffic estimator
 	•	organic traffic calculator
 	•	traffic value calculator (cuánto costaría ese tráfico en ads)
@@ -1361,6 +1415,7 @@ Conversiones y funnel
 🟣 FASE 6 — MONETIZACIÓN DEL TRÁFICO
 (Convertir tráfico en ingresos)
 AdSense / Display
+traffic-monetization-calculators
 	•	AdSense revenue calculator
 	•	RPM calculator (revenue per mille)
 	•	eCPM calculator
@@ -1391,6 +1446,7 @@ Email / lista
 🔵 POR PLATAFORMA — búsquedas con nombre específico
 Cada plataforma tiene su propio universo de búsquedas:
 Google / Web
+ad-revenue-calculators-by-platform
 	•	Google AdSense calculator
 	•	AdSense revenue estimator
 	•	AdSense RPM by niche
@@ -1417,6 +1473,7 @@ Otros canales
 
 
 🟡 OPTIMIZACIÓN DE INGRESOS — publishers intermedios
+publisher-revenue-optimization-tools
 	•	ad fill rate calculator
 	•	viewability score estimator
 	•	ad density checker
@@ -1429,6 +1486,7 @@ Otros canales
 
 
 🟠 PLANIFICACIÓN / PROYECCIONES — muy buscadas
+ad-revenue-projection-tools
 	•	traffic needed to make $1000/month calculator
 	•	pageviews to income estimator
 	•	blog income calculator
@@ -1442,6 +1500,7 @@ Otros canales
 
 
 🔴 AFILIADOS — nicho paralelo con mucho tráfico
+affiliate-revenue-calculators
 	•	affiliate commission calculator
 	•	affiliate revenue estimator
 	•	affiliate earnings per click calculator
@@ -1453,6 +1512,7 @@ Otros canales
 
 
 🟣 CONTENIDO PATROCINADO / INFLUENCERS
+influencer-sponsorship-rate-calculators
 	•	sponsored post price calculator
 	•	influencer rate calculator
 	•	Instagram post price estimator
@@ -1468,6 +1528,7 @@ Otros canales
 🔵 UNIVERSO 1 — TRADING DE OPCIONES
 (El mercado público — calls, puts, estrategias)
 Pricing / Valoración
+options-trading-calculators
 	•	options profit calculator
 	•	Black-Scholes calculator
 	•	option price calculator
@@ -2246,6 +2307,7 @@ Conversión
 🟤 FASE 8 — ESCALADO Y MERCADOS
 (Para crecer a otros países o modelos)
 Multi-marketplace
+amazon-marketplace-scaling-tools
 	•	Amazon marketplace comparison calculator
 	•	Amazon Europe fee calculator (UK, DE, FR, IT, ES)
 	•	Amazon Canada FBA calculator
@@ -2282,6 +2344,7 @@ Conversión divisas
 🔵 NIVEL 1 — CONSUMIDOR / IMPORTADOR INDIVIDUAL
 (Personas comprando desde el extranjero)
 Calculadoras básicas de aranceles
+import-duty-calculators
 	•	import duty calculator
 	•	customs duty calculator
 	•	import tax calculator
@@ -2318,6 +2381,7 @@ Tipos de impuestos
 🟢 NIVEL 2 — ECOMMERCE / IMPORTADOR PYME
 (Sellers online, pequeños importadores)
 Costos de importación
+landed-cost-calculators
 	•	landed cost calculator
 	•	total import cost calculator
 	•	cost of importing goods calculator
@@ -2349,6 +2413,7 @@ Fees aduanales de EE.UU.
 🟡 NIVEL 3 — SECTORES ESPECÍFICOS
 (Aranceles por industria — búsquedas de nicho alto)
 Acero y aluminio (Section 232)
+sector-specific-tariff-calculators
 	•	Section 232 steel tariff calculator
 	•	aluminum import tariff calculator
 	•	steel import duty calculator
@@ -2382,6 +2447,7 @@ Alimentos y agricultura
 🟠 NIVEL 4 — POLÍTICAS COMERCIALES ESPECÍFICAS
 (Muy buscadas en 2025-2026 por la guerra comercial)
 Aranceles Trump / EE.UU.
+trade-policy-tariff-calculators
 	•	Trump tariff calculator
 	•	reciprocal tariff calculator
 	•	Section 301 tariff calculator
@@ -2407,6 +2473,7 @@ Acuerdos comerciales
 🔴 NIVEL 5 — ESTRATEGIA CORPORATIVA / CADENA DE SUMINISTRO
 (Para empresas medianas y grandes)
 Análisis de sourcing
+supply-chain-tariff-tools
 	•	China vs Vietnam sourcing cost calculator
 	•	country sourcing comparison calculator
 	•	tariff impact by sourcing country
@@ -2440,6 +2507,7 @@ Riesgo y planificación
 🟣 NIVEL 6 — EXPORTADORES
 (El lado inverso — quienes venden al exterior)
 Exportaciones
+export-tariff-calculators
 	•	export duty calculator
 	•	export tariff lookup
 	•	market access tariff by country
@@ -2458,6 +2526,7 @@ Acceso a mercados
 ⚫ NIVEL 7 — EDUCACIÓN Y COMPLIANCE
 (Para entender el sistema arancelario)
 Clasificación y conceptos
+customs-compliance-education-tools
 	•	HS code vs HTS code explainer
 	•	ad valorem vs specific duty explainer
 	•	compound duty calculator
@@ -2483,6 +2552,7 @@ Documentación
 🟢 NIVEL 2 — TASAS Y COMPARACIÓN
 (Para saber si el tipo de cambio es bueno)
 Análisis de tasas
+exchange-rate-comparison-tools
 	•	mid-market rate calculator
 	•	interbank exchange rate
 	•	real exchange rate vs bank rate
@@ -2510,6 +2580,7 @@ Tasas históricas
 🟡 NIVEL 3 — VIAJES Y USO PERSONAL
 (Turistas, nómadas digitales, expatriados)
 Viajero
+travel-currency-calculators
 	•	travel budget currency calculator
 	•	how much local currency do I need
 	•	vacation money calculator
@@ -2536,6 +2607,7 @@ Nómada digital / expatriado
 🟠 NIVEL 4 — REMESAS Y TRANSFERENCIAS
 (Uno de los usos más frecuentes globalmente)
 Transferencias internacionales
+remittance-fee-calculators
 	•	money transfer fee calculator
 	•	remittance calculator
 	•	international wire transfer cost
@@ -2566,6 +2638,7 @@ Por corredor de remesas
 🔴 NIVEL 5 — NEGOCIOS E IMPORTACIÓN
 (Empresas con operaciones internacionales)
 Operaciones comerciales
+business-currency-conversion-tools
 	•	invoice currency converter
 	•	foreign currency invoice calculator
 	•	multi-currency pricing calculator
@@ -2597,6 +2670,7 @@ Nómina internacional
 🟣 NIVEL 6 — TRADING FOREX
 (Traders de divisas)
 Calculadoras de trading
+forex-trading-calculators
 	•	pip calculator forex
 	•	pip value calculator
 	•	lot size calculator forex
@@ -2623,6 +2697,7 @@ Análisis técnico
 ⚫ NIVEL 7 — ECONOMÍA Y ANÁLISIS
 (Estudiantes, analistas, investigadores)
 Paridad de poder adquisitivo
+economic-exchange-rate-tools
 	•	purchasing power parity calculator
 	•	PPP calculator
 	•	PPP salary calculator
@@ -2647,6 +2722,7 @@ Análisis macroeconómico
 🟤 NIVEL 8 — IMPUESTOS Y CUMPLIMIENTO
 (Declaraciones fiscales, FBAR, cripto)
 Reporting fiscal
+forex-tax-reporting-tools
 	•	IRS exchange rate calculator
 	•	FBAR exchange rate tool
 	•	foreign income tax calculator
@@ -2671,6 +2747,7 @@ Cripto y divisas
 
 🔵 SECTOR 1 — CONVERSIÓN Y PRECIOS
 (El más buscado en volumen absoluto)
+crypto-price-converters
 	•	bitcoin to USD calculator
 	•	ethereum to USD converter
 	•	crypto price calculator
@@ -2691,6 +2768,7 @@ Cripto y divisas
 
 🟢 SECTOR 2 — PROFIT / LOSS / ROI
 (Inversores y holders)
+crypto-profit-calculators
 	•	crypto profit calculator
 	•	crypto loss calculator
 	•	crypto ROI calculator
@@ -2710,6 +2788,7 @@ Cripto y divisas
 
 🟡 SECTOR 3 — DCA (Dollar Cost Averaging)
 (Estrategia de inversión periódica — muy buscado)
+crypto-dca-calculators
 	•	bitcoin DCA calculator
 	•	ethereum DCA calculator
 	•	crypto DCA calculator
@@ -2728,6 +2807,7 @@ Cripto y divisas
 🟠 SECTOR 4 — TRADING SPOT Y DERIVADOS
 (Traders activos)
 Gestión de riesgo
+crypto-trading-risk-calculators
 	•	crypto position size calculator
 	•	crypto risk calculator
 	•	stop loss calculator crypto
@@ -2758,6 +2838,7 @@ Precios y niveles
 
 🔴 SECTOR 5 — MINING
 (Mineros de PoW)
+crypto-mining-profitability-calculators
 	•	bitcoin mining profitability calculator
 	•	ethereum classic mining calculator
 	•	crypto mining profit calculator
@@ -3794,6 +3875,7 @@ Accesibilidad en animaciones
 
 🔵 TAILWIND CSS — Expansión completa
 Conversión y compatibilidad
+tailwind-css-tools
 	•	CSS to Tailwind converter
 	•	Tailwind to CSS converter
 	•	vanilla CSS to Tailwind
@@ -3915,6 +3997,7 @@ Comparación y referencia
 
 🟢 CSS ARQUITECTURA — Expansión completa
 Metodologías de naming
+css-architecture-tools
 	•	BEM naming generator
 	•	BEM class name generator
 	•	BEM to CSS converter
@@ -4016,6 +4099,7 @@ Análisis y mantenimiento
 🔵 SECTOR 1 — NPM / PAQUETES CORE
 (Gestión directa de paquetes — uso diario)
 Análisis de paquetes
+npm-package-analyzers
 	•	npm package size checker
 	•	bundle size calculator npm
 	•	npm package bundle size
@@ -4055,6 +4139,7 @@ Seguridad y auditoría
 🟢 SECTOR 2 — PACKAGE.JSON
 (El archivo más editado de cualquier proyecto JS)
 Generadores
+package-json-generators
 	•	package.json generator
 	•	package.json template generator
 	•	package.json scripts generator
@@ -4084,6 +4169,7 @@ Exports y módulos
 🟡 SECTOR 3 — MÓDULOS JS (ESM / CJS)
 (Una de las áreas más buscadas y confusas en 2025)
 Compatibilidad de módulos
+javascript-module-compatibility-tools
 	•	ESM vs CJS comparison
 	•	CommonJS to ESM converter
 	•	ESM import syntax reference
@@ -4106,6 +4192,7 @@ Resolución de módulos
 🟠 SECTOR 4 — BUILD TOOLS / BUNDLERS
 (Webpack, Vite, Rollup, esbuild, Turbopack)
 Generadores de config
+js-bundler-comparison-tools
 	•	webpack config generator
 	•	vite config generator
 	•	rollup config generator
@@ -4137,6 +4224,7 @@ Optimización
 🔴 SECTOR 5 — TYPESCRIPT
 (Inevitable en el ecosistema npm moderno)
 Configuración
+typescript-config-tools
 	•	tsconfig generator
 	•	tsconfig.json generator
 	•	TypeScript config builder
@@ -4167,6 +4255,7 @@ Utilidades
 🟣 SECTOR 6 — TESTING
 (Jest, Vitest, Playwright, Cypress)
 Configuración
+js-testing-config-tools
 	•	Jest config generator
 	•	Vitest config generator
 	•	Jest to Vitest migration tool
@@ -4188,6 +4277,7 @@ Utilidades de testing
 ⚫ SECTOR 7 — LINTING Y FORMATO
 (ESLint, Prettier, Biome — uso diario)
 Configuración
+eslint-prettier-config-generators
 	•	ESLint config generator
 	•	.eslintrc generator
 	•	Prettier config generator
@@ -4208,6 +4298,7 @@ Análisis
 🟤 SECTOR 8 — NODE.JS / RUNTIME
 (Node, Deno, Bun — el runtime que importa)
 Versiones y compatibilidad
+nodejs-runtime-tools
 	•	Node.js version compatibility checker
 	•	node version manager reference (nvm, fnm)
 	•	Node.js LTS calculator
@@ -4233,6 +4324,7 @@ Deno / Bun comparación
 🌐 SECTOR 9 — CI/CD Y PUBLICACIÓN
 (El último paso antes de npm publish)
 Publicación
+npm-publish-cicd-tools
 	•	npm publish checklist
 	•	npm publish readiness checker
 	•	npm tag calculator
@@ -4253,6 +4345,7 @@ CI/CD
 
 🔵 SECTOR 10 — MONOREPOS Y WORKSPACES
 (Tendencia creciente en 2025)
+monorepo-workspace-tools
 	•	npm workspaces guide
 	•	monorepo tool comparison
 	•	Turborepo vs Nx comparison
@@ -4268,6 +4361,7 @@ CI/CD
 
 🟢 SECTOR 11 — PACKAGE MANAGERS
 (npm vs yarn vs pnpm vs bun)
+package-manager-comparison-tools
 	•	npm vs yarn vs pnpm comparison
 	•	pnpm vs npm speed comparison
 	•	package manager migration tool
@@ -4285,6 +4379,7 @@ CI/CD
 
 🔵 WEBPACK
 Config y setup
+webpack-config-generators
 	•	webpack config generator
 	•	webpack.config.js generator
 	•	webpack 5 config generator
@@ -4396,6 +4491,7 @@ Utilidades de lenguaje
 
 🟡 DEV TOOLS (Browser y Development)
 Core Web Vitals y performance
+
 	•	Core Web Vitals calculator
 	•	LCP calculator
 	•	CLS calculator
@@ -5240,6 +5336,7 @@ RBAC y permisos
 
 🟡 SECTOR 3 — BASE DE DATOS
 SQL y relacional
+sql-database-reference-tools
 	•	SQL query formatter
 	•	SQL beautifier
 	•	SQL to NoSQL converter
@@ -5302,6 +5399,7 @@ Performance y optimización
 
 🟠 SECTOR 4 — CACHING
 Redis y estrategias
+caching-strategy-tools
 	•	Redis caching strategies guide
 	•	cache TTL calculator
 	•	cache hit rate calculator
@@ -5329,6 +5427,7 @@ HTTP caching
 
 🔴 SECTOR 5 — SEGURIDAD BACKEND
 Vulnerabilidades y ataques
+backend-security-tools
 	•	SQL injection reference
 	•	XSS prevention guide
 	•	CSRF protection guide
@@ -5364,6 +5463,7 @@ Encriptación
 
 🟣 SECTOR 6 — SERVIDORES Y INFRA
 Docker y contenedores
+server-infra-config-tools
 	•	Dockerfile generator
 	•	Docker Compose generator
 	•	docker-compose.yml template
@@ -5407,6 +5507,7 @@ Cloud y serverless
 
 ⚫ SECTOR 7 — MESSAGE QUEUES Y EVENTOS
 Message brokers
+message-queue-event-tools
 	•	Kafka vs RabbitMQ comparison
 	•	message queue comparison
 	•	pub/sub vs queue comparison
@@ -5431,6 +5532,7 @@ Background jobs
 
 🟤 SECTOR 8 — MONITORING Y OBSERVABILIDAD
 Logging
+backend-monitoring-tools
 	•	log levels reference
 	•	structured logging guide
 	•	log format generator
@@ -5457,6 +5559,7 @@ Tracing y performance
 
 🌐 SECTOR 9 — PROTOCOLOS Y COMUNICACIÓN
 HTTP
+web-protocols-reference-tools
 	•	HTTP status codes reference
 	•	HTTP methods cheatsheet
 	•	HTTP headers reference
@@ -5483,6 +5586,7 @@ Otros protocolos
 
 🔵 SECTOR 10 — HERRAMIENTAS DE DESARROLLO DIARIO
 Formateo y validación de datos
+developer-daily-tools
 	•	JSON formatter and validator
 	•	YAML formatter
 	•	XML to JSON converter
@@ -5525,6 +5629,7 @@ Números y cálculos
 
 🟢 SECTOR 11 — LENGUAJES Y FRAMEWORKS BACKEND
 Node.js / Express
+backend-framework-reference-tools
 	•	Express middleware guide
 	•	Node.js streams reference
 	•	async await error handling
@@ -5555,6 +5660,7 @@ Go / Rust / Java
 
 🔵 EXPRESS.JS — Expansión completa
 Core y routing
+expressjs-reference-tools
 	•	Express.js cheatsheet
 	•	Express routing reference
 	•	Express router generator
@@ -5604,6 +5710,7 @@ Seguridad y producción
 
 🟢 NESTJS — Expansión completa
 Core y arquitectura
+nestjs-reference-tools
 	•	NestJS cheatsheet
 	•	NestJS module generator
 	•	NestJS controller guide
@@ -5654,6 +5761,7 @@ Integraciones
 
 🟡 API-FIRST / SWAGGER / OPENAPI — Expansión completa
 API-First design
+openapi-swagger-tools
 	•	API first design guide
 	•	API first vs code first
 	•	design first API guide
@@ -5699,6 +5807,7 @@ Documentación de endpoints
 
 🟠 DEPLOY NODE.JS — Expansión completa
 Plataformas
+nodejs-deployment-guides
 	•	deploy Node.js app guide
 	•	Node.js Vercel deployment
 	•	Node.js Railway deployment
@@ -5746,6 +5855,7 @@ Performance en producción
 
 🔴 TYPEORM — Expansión completa
 Setup y configuración
+typeorm-reference-tools
 	•	TypeORM setup guide
 	•	TypeORM connection config
 	•	TypeORM datasource generator
@@ -5793,6 +5903,7 @@ Migraciones
 
 🟣 PRISMA — Expansión completa
 Schema y modelos
+prisma-reference-tools
 	•	Prisma schema cheatsheet
 	•	Prisma schema generator
 	•	Prisma model reference
@@ -6715,6 +6826,7 @@ Patrones avanzados
 
 ⚫ PUPPETEER — Expansión completa
 Core y navegación
+puppeteer-guides
 	•	Puppeteer cheatsheet
 	•	Puppeteer guide
 	•	Puppeteer setup guide
@@ -6749,6 +6861,7 @@ Casos de uso
 
 🌐 PLAYWRIGHT — Expansión completa
 Core y setup
+playwright-guides
 	•	Playwright cheatsheet
 	•	Playwright guide
 	•	Playwright setup guide
@@ -6810,6 +6923,7 @@ Patrones avanzados
 
 🔵 SSR / SERVER-SIDE RENDERING — Expansión completa
 Estrategias de rendering
+ssr-rendering-guides
 	•	SSR vs CSR vs SSG comparison
 	•	SSR vs SSG guide
 	•	rendering strategies guide
@@ -6864,6 +6978,7 @@ Métricas y performance
 
 🟢 JAMSTACK — Expansión completa
 Core JAMstack
+jamstack-guides
 	•	JAMstack guide
 	•	JAMstack vs traditional web
 	•	JAMstack architecture guide
@@ -6917,6 +7032,7 @@ APIs y contenido
 
 🟡 NUXT.JS — Expansión completa
 Nuxt 3 (actual)
+nuxtjs-guides
 	•	Nuxt 3 cheatsheet
 	•	Nuxt 3 guide
 	•	Nuxt 3 vs Nuxt 2 migration
@@ -6964,6 +7080,7 @@ Nuxt 2 (legacy — aún relevante)
 
 🟠 CQRS — Expansión completa
 Conceptos core
+cqrs-architecture-guides
 	•	CQRS guide
 	•	CQRS pattern reference
 	•	CQRS vs CRUD comparison
@@ -7020,6 +7137,7 @@ Patrones relacionados
 
 🔴 NEW RELIC — Expansión completa
 APM y observabilidad
+new-relic-guides
 	•	New Relic guide
 	•	New Relic APM guide
 	•	New Relic setup guide
@@ -7065,6 +7183,7 @@ Métricas clave
 
 🟣 LANGSMITH — Expansión completa
 Core LangSmith
+langsmith-llm-observability-guides
 	•	LangSmith guide
 	•	LangSmith setup guide
 	•	LangSmith vs Langfuse comparison
@@ -7105,6 +7224,7 @@ LLM Ops general
 
 ⚫ NX MONOREPO — Expansión completa
 Core Nx
+nx-monorepo-guides
 	•	Nx guide
 	•	Nx monorepo guide
 	•	Nx setup guide
@@ -7176,6 +7296,7 @@ Herramientas del ecosistema
 
 🏗️ TERRAFORM / IaC — Expansión completa
 Core HCL
+terraform-iac-guides
 	•	Terraform cheatsheet
 	•	Terraform commands reference
 	•	HCL syntax guide
@@ -7222,6 +7343,7 @@ Providers y cloud
 
 🔧 ANSIBLE — Expansión completa
 Core y playbooks
+ansible-guides
 	•	Ansible cheatsheet
 	•	Ansible playbook guide
 	•	Ansible playbook generator
@@ -7296,6 +7418,7 @@ Azure
 
 📊 MONITORING / OBSERVABILITY — Expansión completa
 Prometheus y Grafana
+monitoring-observability-tools
 	•	Prometheus guide
 	•	Prometheus cheatsheet
 	•	PromQL reference
@@ -7743,6 +7866,7 @@ Alternativas y ecosistema
 
 ☁️ AWS CERTIFICATION — Expansión completa
 Cloud Practitioner (CLF-C02) — Entrada
+aws-certification-study-tools
 	•	AWS Cloud Practitioner guide
 	•	CLF-C02 study guide
 	•	AWS Cloud Practitioner cheatsheet
@@ -7863,6 +7987,7 @@ Recursos de estudio transversales
 
 🔑 KEYWORD RESEARCH B2B — Expansión completa
 Estrategia de keywords
+b2b-keyword-research-tools
 	•	B2B keyword research guide
 	•	keyword difficulty guide
 	•	search intent guide
@@ -7910,6 +8035,7 @@ Buyer journey SEO
 
 🏗️ ARQUITECTURA DE CONTENIDO B2B — Expansión completa
 Estructura del sitio
+b2b-content-architecture-tools
 	•	site architecture guide
 	•	information architecture SEO
 	•	website silo structure guide
@@ -7940,6 +8066,7 @@ Tipos de contenido B2B
 
 🔗 LINK BUILDING B2B — Expansión completa
 Estrategias
+b2b-link-building-tools
 	•	B2B link building guide
 	•	backlink analysis guide
 	•	domain authority guide
@@ -7972,6 +8099,7 @@ Métricas de autoridad
 
 📊 ANALÍTICA SEO B2B — Expansión completa
 GA4 y GSC
+b2b-seo-analytics-tools
 	•	GA4 SEO guide
 	•	Google Search Console guide
 	•	GSC performance report guide
