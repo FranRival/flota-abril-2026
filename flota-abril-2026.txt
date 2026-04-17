@@ -10292,6 +10292,7 @@ Herramientas
 	•	Apollo Server vs Yoga comparison
 
 
+16-abril-2026.
 Webcost 3
 
 🔵 SQL GENERAL — Expansión completa
@@ -11739,5 +11740,2585 @@ Documentación técnica
 	•	on-call runbook template
 	•	SLO template
 
+
+🐝 DOCKER SWARM — Expansión completa
+Core y arquitectura
+	•	Docker Swarm guide
+	•	Docker Swarm cheatsheet
+	•	Docker Swarm vs Kubernetes comparison
+	•	Docker Swarm vs Docker Compose
+	•	Docker Swarm setup guide
+	•	docker swarm init guide
+	•	Swarm manager vs worker nodes
+	•	Swarm Raft consensus guide
+	•	Swarm quorum guide
+	•	Swarm fault tolerance calculator
+	•	manager node count guide
+Servicios y stacks
+	•	docker service guide
+	•	docker service create reference
+	•	docker service scale guide
+	•	docker service update guide
+	•	docker service rollback guide
+	•	docker service ls reference
+	•	docker service inspect
+	•	docker service replicas guide
+	•	docker service global vs replicated
+	•	docker stack guide
+	•	docker stack deploy guide
+	•	docker stack deploy compose file
+	•	docker stack services reference
+	•	Swarm compose file reference
+	•	deploy key docker-compose Swarm
+Networking y secrets
+	•	Docker Swarm networking guide
+	•	Swarm overlay network guide
+	•	Swarm ingress network guide
+	•	Swarm routing mesh guide
+	•	Swarm load balancing guide
+	•	docker service ports guide
+	•	Docker Swarm secrets guide
+	•	docker secret create reference
+	•	Docker Swarm configs guide
+	•	Swarm TLS guide
+	•	Swarm node labels guide
+	•	Swarm placement constraints
+Alta disponibilidad y operaciones
+	•	Docker Swarm high availability guide
+	•	Swarm node drain guide
+	•	Swarm rolling update guide
+	•	Swarm update parallelism guide
+	•	Swarm update delay guide
+	•	Swarm health check guide
+	•	Swarm monitoring guide
+	•	Portainer guide (UI para Swarm)
+	•	Swarm vs Kubernetes when to use
+	•	Docker Swarm production guide
+	•	Swarm backup guide
+	•	Swarm logging guide
+	•	Swarm Traefik integration
+
+🏗️ TERRAFORM — Expansión completa (profundización)
+HCL avanzado
+	•	Terraform HCL reference
+	•	Terraform meta-arguments guide
+	•	Terraform count guide
+	•	Terraform for_each guide
+	•	count vs for_each comparison
+	•	Terraform depends_on guide
+	•	Terraform lifecycle guide
+	•	create_before_destroy guide
+	•	prevent_destroy guide
+	•	Terraform dynamic blocks
+	•	Terraform conditional expressions
+	•	Terraform ternary operator
+	•	Terraform splat expression
+	•	Terraform functions reference
+	•	Terraform templatefile guide
+	•	Terraform file function
+	•	Terraform lookup function
+	•	Terraform merge function
+	•	Terraform toset tolist tomap
+	•	Terraform flatten guide
+Módulos
+	•	Terraform modules guide
+	•	Terraform module sources
+	•	Terraform module inputs outputs
+	•	Terraform module versioning
+	•	Terraform Registry guide
+	•	Terraform module composition
+	•	Terraform public module guide
+	•	Terraform module best practices
+	•	Terraform reusable modules
+	•	Terraform monorepo modules
+State y backends
+	•	Terraform state guide
+	•	terraform state list
+	•	terraform state mv guide
+	•	terraform state rm guide
+	•	terraform state pull push
+	•	Terraform remote backend guide
+	•	Terraform S3 backend guide
+	•	Terraform GCS backend
+	•	Terraform state locking guide
+	•	Terraform state encryption
+	•	terraform import guide
+	•	Terraform refresh guide
+	•	terraform plan output guide
+	•	Terraform sensitive values
+Testing y seguridad
+	•	Terraform testing guide
+	•	Terraform test framework
+	•	Terratest guide
+	•	tfsec guide
+	•	checkov Terraform guide
+	•	Terraform fmt guide
+	•	Terraform validate guide
+	•	Terraform lint guide
+	•	pre-commit Terraform hooks
+	•	Terraform compliance guide
+	•	Sentinel policy guide
+	•	OPA Terraform guide
+Flujo de trabajo avanzado
+	•	Terraform workspace guide
+	•	Terraform env separation guide
+	•	Terragrunt guide
+	•	Terragrunt DRY guide
+	•	Terragrunt remote state
+	•	Terraform Cloud guide
+	•	Terraform Cloud vs Terragrunt
+	•	Terraform drift detection
+	•	terraform plan -out guide
+	•	Terraform apply automation
+	•	Terraform destroy guide
+	•	Terraform upgrade guide
+	•	OpenTofu vs Terraform 2025
+	•	Terraform provider version guide
+	•	Terraform required_providers
+
+
+
+🔁 CI/CD — Expansión completa (profundización)
+GitHub Actions (profundo)
+	•	GitHub Actions syntax reference
+	•	GitHub Actions events reference
+	•	push pull_request workflow_dispatch
+	•	GitHub Actions jobs steps guide
+	•	GitHub Actions needs dependency
+	•	GitHub Actions if conditions
+	•	GitHub Actions environment guide
+	•	GitHub Actions secrets guide
+	•	GitHub Actions vars guide
+	•	GitHub Actions OIDC guide
+	•	GitHub Actions permissions guide
+	•	GitHub Actions cache action guide
+	•	actions/cache guide
+	•	GitHub Actions artifacts guide
+	•	actions/upload-artifact
+	•	GitHub Actions matrix strategy
+	•	GitHub Actions matrix include exclude
+	•	GitHub Actions concurrency guide
+	•	GitHub Actions timeout guide
+	•	GitHub Actions services guide
+	•	GitHub Actions container guide
+	•	GitHub Actions self-hosted runners
+	•	GitHub Actions reusable workflows
+	•	GitHub Actions composite actions
+	•	GitHub Actions custom actions
+	•	GitHub Actions marketplace top actions
+	•	GitHub Actions Docker build push
+	•	GitHub Actions ECR guide
+	•	GitHub Actions deploy to ECS
+	•	GitHub Actions deploy to GKE
+	•	GitHub Actions Kubernetes guide
+	•	GitHub Actions Terraform plan apply
+	•	GitHub Actions Node.js CI
+	•	GitHub Actions Python CI
+	•	GitHub Actions Java Maven CI
+	•	GitHub Actions monorepo guide
+GitLab CI (profundo)
+	•	GitLab CI YAML reference
+	•	GitLab CI stages jobs guide
+	•	GitLab CI rules reference
+	•	GitLab CI variables guide
+	•	GitLab CI artifacts guide
+	•	GitLab CI cache guide
+	•	GitLab CI Docker guide
+	•	GitLab CI Kubernetes guide
+	•	GitLab CI environments guide
+	•	GitLab CI include templates
+	•	GitLab CI needs keyword
+	•	GitLab CI parallel guide
+	•	GitLab CI services guide
+	•	GitLab CI trigger guide
+	•	GitLab CI parent child pipelines
+	•	GitLab CI scheduled pipelines
+	•	GitLab CI DAG pipelines
+	•	GitLab CI security scanning
+	•	GitLab CI SAST guide
+	•	GitLab CI DAST guide
+Jenkins
+	•	Jenkins declarative pipeline guide
+	•	Jenkinsfile reference
+	•	Jenkins pipeline stages guide
+	•	Jenkins pipeline agent guide
+	•	Jenkins pipeline environment
+	•	Jenkins pipeline parameters
+	•	Jenkins pipeline post guide
+	•	Jenkins pipeline when conditions
+	•	Jenkins shared libraries guide
+	•	Jenkins Docker agent guide
+	•	Jenkins Kubernetes agent
+	•	Jenkins credentials guide
+	•	Jenkins webhook guide
+	•	Jenkins multibranch pipeline
+	•	Jenkins Blue Ocean guide
+	•	Jenkins vs GitHub Actions
+Estrategias de deployment
+	•	blue green deployment guide
+	•	canary deployment guide
+	•	rolling deployment guide
+	•	feature flags CI/CD guide
+	•	LaunchDarkly guide
+	•	deployment frequency guide
+	•	DORA metrics guide
+	•	lead time for changes
+	•	change failure rate guide
+	•	mean time to recovery guide
+	•	deployment pipeline guide
+	•	shift left testing guide
+	•	zero downtime deployment
+	•	GitOps guide
+	•	ArgoCD guide
+	•	Flux CD guide
+
+
+
+⚡ SERVERLESS FRAMEWORK — Expansión completa
+Core y serverless.yml
+	•	Serverless Framework guide
+	•	Serverless Framework cheatsheet
+	•	serverless.yml reference
+	•	serverless.yml generator
+	•	Serverless Framework v4 guide
+	•	Serverless Framework vs AWS SAM
+	•	Serverless Framework vs SST
+	•	Serverless Framework plugins guide
+	•	serverless deploy guide
+	•	serverless invoke guide
+	•	serverless logs guide
+	•	serverless remove guide
+	•	serverless print guide
+	•	serverless offline guide
+	•	serverless-offline plugin
+AWS Lambda con Serverless
+	•	Lambda function guide Serverless
+	•	Lambda handler guide
+	•	Lambda event sources guide
+	•	Lambda HTTP events guide
+	•	Lambda S3 event guide
+	•	Lambda SQS event guide
+	•	Lambda SNS event guide
+	•	Lambda DynamoDB stream
+	•	Lambda EventBridge guide
+	•	Lambda schedule cron guide
+	•	Lambda environment variables
+	•	Lambda timeout memory guide
+	•	Lambda layers guide Serverless
+	•	Lambda VPC guide Serverless
+	•	Lambda IAM permissions guide
+	•	Lambda cold start guide
+	•	Lambda provisioned concurrency
+	•	Lambda TypeScript guide
+	•	Lambda Node.js guide
+	•	Lambda Python guide
+Configuración avanzada
+	•	Serverless Framework stages guide
+	•	Serverless Framework variables
+	•	Serverless Framework custom variables
+	•	Serverless Framework SSM guide
+	•	Serverless Framework resources guide
+	•	CloudFormation in Serverless
+	•	Serverless Framework packaging
+	•	Serverless Framework esbuild
+	•	Serverless Framework webpack
+	•	Serverless Framework API Gateway
+	•	Serverless Framework custom domain
+	•	Serverless Framework DynamoDB
+	•	Serverless Framework S3 guide
+	•	Serverless Framework SQS guide
+	•	Serverless Framework Cognito
+Alternativas y ecosistema
+	•	AWS SAM guide
+	•	AWS SAM template reference
+	•	SAM vs Serverless Framework
+	•	SST guide (Serverless Stack)
+	•	SST Ion guide (nueva arquitectura)
+	•	AWS CDK guide
+	•	CDK vs Serverless Framework
+	•	Pulumi serverless guide
+	•	serverless-offline guide
+	•	LocalStack guide
+	•	serverless cold start calculator
+	•	Lambda pricing calculator
+	•	Lambda vs ECS Fargate comparison
+	•	serverless architecture patterns
+	•	FaaS comparison guide
+
+
+
+☁️ AWS CERTIFICATION — Expansión completa
+Cloud Practitioner (CLF-C02) — Entrada
+	•	AWS Cloud Practitioner guide
+	•	CLF-C02 study guide
+	•	AWS Cloud Practitioner cheatsheet
+	•	CLF-C02 exam topics
+	•	AWS Cloud Practitioner practice questions
+	•	AWS cloud concepts guide
+	•	AWS shared responsibility model
+	•	AWS pricing models guide
+	•	AWS support plans guide
+	•	AWS Well-Architected Framework
+	•	AWS global infrastructure guide
+	•	AWS regions availability zones
+	•	AWS free tier guide
+Solutions Architect Associate (SAA-C03) — El más popular
+	•	AWS SAA-C03 study guide
+	•	SAA-C03 exam topics
+	•	SAA-C03 cheatsheet
+	•	SAA-C03 practice questions
+	•	AWS Solutions Architect guide
+	•	AWS EC2 instance types guide
+	•	AWS EC2 pricing guide
+	•	AWS S3 storage classes guide
+	•	AWS S3 cheatsheet
+	•	AWS IAM guide
+	•	AWS IAM policies reference
+	•	AWS VPC guide
+	•	AWS VPC subnets guide
+	•	AWS security groups vs NACLs
+	•	AWS RDS vs DynamoDB
+	•	AWS Aurora guide
+	•	AWS ELB types guide
+	•	ALB vs NLB vs CLB
+	•	AWS Auto Scaling guide
+	•	AWS CloudFront guide
+	•	AWS Route 53 guide
+	•	AWS Route 53 routing policies
+	•	AWS Lambda SAA guide
+	•	AWS SQS vs SNS comparison
+	•	AWS ECS vs EKS comparison
+	•	AWS Fargate guide
+	•	AWS ElastiCache guide
+	•	AWS CloudWatch guide
+	•	AWS CloudTrail guide
+	•	AWS Config guide
+	•	AWS KMS guide
+	•	AWS Secrets Manager guide
+	•	AWS Well-Architected pillars
+Developer Associate (DVA-C02)
+	•	AWS DVA-C02 study guide
+	•	DVA-C02 exam topics
+	•	DVA-C02 cheatsheet
+	•	AWS Developer Associate guide
+	•	AWS CodePipeline guide
+	•	AWS CodeBuild guide
+	•	AWS CodeDeploy guide
+	•	AWS CodeCommit guide
+	•	AWS Elastic Beanstalk guide
+	•	AWS SAM DVA guide
+	•	AWS Lambda DVA guide
+	•	AWS API Gateway guide
+	•	AWS DynamoDB DVA guide
+	•	AWS X-Ray guide
+	•	AWS Cognito guide
+	•	AWS SQS DVA guide
+	•	AWS SNS DVA guide
+	•	AWS Kinesis guide
+	•	AWS CloudFormation guide
+	•	AWS CDK DVA guide
+SysOps / CloudOps Associate (SOA-C03)
+	•	AWS SOA-C03 study guide
+	•	SOA-C03 exam topics
+	•	AWS SysOps Administrator guide
+	•	AWS CloudOps guide
+	•	AWS Systems Manager guide
+	•	AWS OpsWorks guide
+	•	AWS CloudWatch alarms guide
+	•	AWS CloudWatch metrics guide
+	•	AWS CloudWatch Logs guide
+	•	AWS Cost Explorer guide
+	•	AWS Trusted Advisor guide
+	•	AWS backup guide
+	•	AWS disaster recovery guide
+	•	RPO vs RTO guide
+DevOps Engineer Professional (DOP-C02)
+	•	AWS DOP-C02 study guide
+	•	DOP-C02 exam topics
+	•	AWS DevOps Engineer Professional guide
+	•	AWS CodePipeline advanced guide
+	•	AWS multi-account strategy
+	•	AWS Organizations guide
+	•	AWS Service Control Policies
+	•	AWS Control Tower guide
+	•	AWS Config Rules guide
+	•	AWS Security Hub guide
+	•	AWS GuardDuty guide
+	•	AWS Inspector guide
+	•	AWS Macie guide
+Recursos de estudio transversales
+	•	AWS certification roadmap
+	•	AWS certification comparison guide
+	•	AWS certification order guide
+	•	AWS cheat sheets
+	•	AWS services comparison guide
+	•	AWS acronyms guide
+	•	AWS exam tips guide
+	•	AWS free practice exam
+	•	AWS Skill Builder guide
+	•	Tutorials Dojo vs Stephane Maarek
+	•	AWS whitepapers guide
+	•	AWS re:Invent talks guide
+
+
+
 ￼
+
+
+
+
+🔑 KEYWORD RESEARCH B2B — Expansión completa
+Estrategia de keywords
+	•	B2B keyword research guide
+	•	keyword difficulty guide
+	•	search intent guide
+	•	informational vs commercial intent
+	•	transactional keywords guide
+	•	navigational keywords guide
+	•	long-tail keywords B2B
+	•	zero volume keywords guide
+	•	keyword clustering guide
+	•	topic cluster guide
+	•	pillar page guide
+	•	pillar page vs cluster content
+	•	content hub guide
+	•	keyword cannibalization guide
+	•	keyword cannibalization checker
+Herramientas y análisis
+	•	keyword research tool comparison
+	•	Ahrefs vs Semrush comparison
+	•	keyword difficulty calculator
+	•	search volume estimator
+	•	keyword gap analysis guide
+	•	content gap analysis guide
+	•	competitor keyword analysis
+	•	SERP analysis guide
+	•	SERP features guide
+	•	featured snippet optimization
+	•	People Also Ask optimization
+	•	PAA box guide
+Buyer journey SEO
+	•	B2B buyer journey SEO
+	•	top of funnel content guide
+	•	middle of funnel SEO
+	•	bottom of funnel keywords
+	•	TOFU MOFU BOFU SEO
+	•	SaaS SEO keyword guide
+	•	ICP keyword research
+	•	account-based SEO guide
+	•	SQL keyword guide (Sales Qualified Lead)
+	•	high-intent B2B keywords
+	•	comparison page SEO guide
+	•	vs page SEO guide
+	•	alternative page SEO guide
+
+
+
+🏗️ ARQUITECTURA DE CONTENIDO B2B — Expansión completa
+Estructura del sitio
+	•	site architecture guide
+	•	information architecture SEO
+	•	website silo structure guide
+	•	hub and spoke model SEO
+	•	internal linking guide
+	•	internal linking strategy
+	•	orphan pages guide
+	•	page depth guide SEO
+	•	crawl hierarchy guide
+	•	breadcrumb navigation SEO
+	•	category page SEO guide
+	•	tag page SEO guide
+Tipos de contenido B2B
+	•	pillar page examples B2B
+	•	comparison page template
+	•	use case page SEO
+	•	landing page SEO guide
+	•	service page SEO guide
+	•	product page SEO B2B
+	•	case study SEO guide
+	•	glossary page SEO
+	•	resource page SEO
+	•	FAQ page SEO guide
+	•	pricing page SEO guide
+	•	about page SEO guide
+
+
+
+🔗 LINK BUILDING B2B — Expansión completa
+Estrategias
+	•	B2B link building guide
+	•	backlink analysis guide
+	•	domain authority guide
+	•	domain rating guide
+	•	referring domains guide
+	•	link velocity guide
+	•	anchor text distribution guide
+	•	toxic backlinks guide
+	•	disavow file generator
+	•	disavow guide
+	•	link gap analysis guide
+	•	digital PR guide
+	•	HARO guide (Help a Reporter Out)
+	•	HARO alternative 2025
+	•	guest posting guide
+	•	resource page link building
+	•	broken link building guide
+Métricas de autoridad
+	•	Domain Authority vs Domain Rating
+	•	DA vs DR comparison
+	•	Page Authority guide
+	•	URL Rating guide
+	•	Trust Flow guide
+	•	Citation Flow guide
+	•	spam score guide
+	•	link profile analysis guide
+	•	backlink profile audit
+
+
+
+📊 ANALÍTICA SEO B2B — Expansión completa
+GA4 y GSC
+	•	GA4 SEO guide
+	•	Google Search Console guide
+	•	GSC performance report guide
+	•	GSC coverage report guide
+	•	GSC Core Web Vitals report
+	•	GSC rich results report
+	•	GA4 organic traffic guide
+	•	GA4 channel grouping guide
+	•	GA4 event tracking SEO
+	•	GA4 conversions guide
+	•	GA4 vs Universal Analytics
+	•	Looker Studio SEO guide
+	•	SEO dashboard guide
+KPIs y reporting
+	•	SEO KPIs guide
+	•	organic CTR guide
+	•	impressions vs clicks guide
+	•	SEO ROI calculator
+	•	organic traffic calculator
+	•	rank tracking guide
+	•	keyword rank tracker
+	•	SERP volatility guide
+	•	SEO reporting template
+	•	B2B SEO attribution guide
+	•	first touch vs last touch attribution
+	•	organic lead attribution guide
+
+🤖 GEO / AEO / AI SEO — El nicho más nuevo y caliente
+Conceptos core
+	•	GEO guide (Generative Engine Optimization)
+	•	AEO guide (Answer Engine Optimization)
+	•	GEO vs SEO comparison
+	•	AEO vs SEO guide
+	•	GEO vs AEO vs SEO
+	•	AI Overviews optimization guide
+	•	Google AI Overviews guide
+	•	AIO optimization guide
+	•	LLM SEO guide
+	•	ChatGPT SEO guide
+	•	Perplexity SEO guide
+	•	AI search optimization guide
+	•	answer engine guide
+	•	zero-click search guide
+	•	AI citations guide
+Estrategias de contenido para IA
+	•	passage-level optimization guide
+	•	content chunking guide
+	•	answer-first content guide
+	•	entity optimization guide
+	•	entity SEO guide
+	•	knowledge graph optimization
+	•	topical authority guide
+	•	semantic SEO guide
+	•	E-E-A-T guide
+	•	EEAT optimization guide
+	•	author page SEO guide
+	•	author schema guide
+	•	brand mention guide
+	•	brand entity guide
+	•	Wikipedia SEO strategy
+	•	Reddit SEO strategy
+	•	G2 review SEO guide
+Herramientas y medición
+	•	AI visibility tracking guide
+	•	LLMs.txt guide
+	•	LLMs.txt generator
+	•	AI brand mention tracker
+	•	ChatGPT brand monitoring
+	•	Perplexity brand tracking
+	•	AI citation checker
+	•	GEO tools comparison
+	•	AEO tools guide
+	•	AI search traffic guide
+	•	LLM referral traffic guide
+	•	AI Overview CTR guide
+	•	share of voice AI guide
+
+📝 CONTENIDO B2B — Expansión completa
+Estrategia
+	•	B2B content strategy guide
+	•	content marketing B2B guide
+	•	thought leadership content guide
+	•	B2B blog strategy guide
+	•	content calendar template
+	•	editorial calendar SEO
+	•	topical authority building
+	•	content velocity guide
+	•	content refresh guide
+	•	evergreen content guide
+	•	thin content guide
+	•	content pruning guide
+Optimización on-page
+	•	on-page SEO guide
+	•	on-page SEO checklist
+	•	Surfer SEO guide
+	•	Clearscope guide
+	•	MarketMuse guide
+	•	NLP SEO guide
+	•	TF-IDF guide
+	•	LSI keywords guide
+	•	content brief template
+	•	SEO content brief generator
+	•	word count SEO guide
+	•	readability guide SEO
+	•	Flesch reading ease SEO
+
+🌍 SEO INTERNACIONAL Y LOCAL — Expansión completa
+Internacional
+	•	international SEO guide
+	•	hreflang guide B2B
+	•	hreflang implementation guide
+	•	ccTLD vs subdomain vs subfolder
+	•	geo-targeting guide
+	•	multilingual SEO guide
+	•	international site structure guide
+Local / Empresa
+	•	local SEO B2B guide
+	•	Google Business Profile guide
+	•	NAP consistency guide
+	•	local citations guide
+	•	local schema guide
+	•	multi-location SEO guide
+	•	service area SEO guide
+
+￼
+
+
+🛒 SEO E-COMMERCE — Expansión completa
+Arquitectura y estructura
+	•	ecommerce SEO guide
+	•	ecommerce site architecture guide
+	•	product page SEO guide
+	•	category page SEO guide
+	•	ecommerce URL structure guide
+	•	faceted navigation SEO guide
+	•	faceted navigation canonical guide
+	•	filter URL handling guide
+	•	crawl budget ecommerce guide
+	•	index bloat ecommerce guide
+	•	ecommerce pagination guide
+	•	pagination vs infinite scroll SEO
+	•	subcategory page SEO guide
+	•	ecommerce breadcrumb guide
+Páginas de producto
+	•	product page SEO checklist
+	•	product title optimization guide
+	•	product description SEO guide
+	•	duplicate product description guide
+	•	product variant SEO guide
+	•	product variant canonical guide
+	•	out of stock product SEO guide
+	•	product image SEO guide
+	•	product image alt text guide
+	•	product review SEO guide
+	•	user generated content SEO
+	•	ecommerce schema guide
+	•	Product schema generator
+	•	Offer schema generator
+	•	Review schema ecommerce
+	•	AggregateRating schema
+	•	Google Shopping schema guide
+	•	GTIN schema guide
+	•	product feed SEO guide
+Keywords y contenido
+	•	ecommerce keyword research guide
+	•	transactional keyword guide
+	•	commercial intent keywords
+	•	buying intent keywords
+	•	product keywords guide
+	•	category keywords guide
+	•	brand vs non-brand keywords
+	•	long-tail ecommerce keywords
+	•	ecommerce content strategy
+	•	buying guide SEO
+	•	comparison page ecommerce SEO
+	•	best X for Y keywords
+	•	seasonal SEO ecommerce guide
+	•	Black Friday SEO guide
+	•	ecommerce blog strategy
+Técnico ecommerce
+	•	ecommerce technical SEO checklist
+	•	Shopify SEO guide
+	•	WooCommerce SEO guide
+	•	Magento SEO guide
+	•	BigCommerce SEO guide
+	•	ecommerce site speed guide
+	•	ecommerce Core Web Vitals
+	•	ecommerce mobile SEO guide
+	•	ecommerce internal linking guide
+	•	ecommerce XML sitemap guide
+	•	ecommerce robots.txt guide
+	•	ecommerce canonical guide
+	•	ecommerce hreflang guide
+	•	international ecommerce SEO
+	•	ecommerce migration SEO guide
+Google Shopping y Merchant Center
+	•	Google Merchant Center guide
+	•	Google Shopping optimization
+	•	product feed optimization guide
+	•	Google Shopping schema
+	•	Google Merchant Center errors guide
+	•	Shopping ads vs SEO
+	•	free listings Google Shopping
+
+
+
+📊 SEMRUSH — Expansión completa
+Features core
+	•	Semrush guide
+	•	Semrush cheatsheet
+	•	Semrush vs Ahrefs comparison
+	•	Semrush pricing guide
+	•	Semrush free trial guide
+	•	Semrush Keyword Magic Tool guide
+	•	Semrush Keyword Gap guide
+	•	Semrush Domain Overview guide
+	•	Semrush Site Audit guide
+	•	Semrush Position Tracking guide
+	•	Semrush Backlink Analytics guide
+	•	Semrush Backlink Audit guide
+	•	Semrush Traffic Analytics guide
+	•	Semrush Organic Research guide
+	•	Semrush Advertising Research
+	•	Semrush Topic Research guide
+	•	Semrush Content Template guide
+	•	Semrush SEO Writing Assistant
+	•	Semrush On Page SEO Checker
+Features específicos
+	•	Semrush Link Building Tool
+	•	Semrush Local SEO guide
+	•	Semrush Social Media guide
+	•	Semrush PPC Keyword tool
+	•	Semrush Display Advertising
+	•	Semrush Brand Monitoring
+	•	Semrush Looker Studio guide
+	•	Semrush API guide
+	•	Semrush reports guide
+	•	Semrush projects guide
+	•	Semrush cannibalization guide
+	•	Semrush Share of Voice
+	•	Semrush AI visibility guide
+	•	Semrush One guide
+Comparativas y alternativas
+	•	Semrush vs Moz comparison
+	•	Semrush vs SE Ranking
+	•	Semrush vs Ubersuggest
+	•	Semrush alternatives guide
+	•	Semrush plans comparison
+	•	Semrush Pro vs Guru
+	•	Semrush for agencies guide
+	•	Semrush for ecommerce
+	•	Semrush for B2B guide
+
+
+
+🔎 AHREFS — Expansión completa
+Features core
+	•	Ahrefs guide
+	•	Ahrefs cheatsheet
+	•	Ahrefs vs Semrush comparison
+	•	Ahrefs pricing guide
+	•	Ahrefs free tools guide
+	•	Ahrefs Webmaster Tools guide
+	•	Ahrefs Site Explorer guide
+	•	Ahrefs Keywords Explorer guide
+	•	Ahrefs Content Explorer guide
+	•	Ahrefs Site Audit guide
+	•	Ahrefs Rank Tracker guide
+	•	Ahrefs Competitive Analysis guide
+	•	Ahrefs Batch Analysis guide
+	•	Ahrefs Web Explorer guide
+	•	Ahrefs credits guide
+Métricas propias
+	•	Ahrefs Domain Rating guide
+	•	DR vs DA comparison
+	•	Ahrefs URL Rating guide
+	•	Ahrefs Ahrefs Rank guide
+	•	Ahrefs Traffic Value guide
+	•	Ahrefs keyword difficulty guide
+	•	Ahrefs backlink index guide
+Features específicos
+	•	Ahrefs Content Gap guide
+	•	Ahrefs Link Intersect guide
+	•	Ahrefs broken link guide
+	•	Ahrefs lost backlinks guide
+	•	Ahrefs anchor text guide
+	•	Ahrefs referring domains guide
+	•	Ahrefs SERP overview guide
+	•	Ahrefs SERP features guide
+	•	Ahrefs Brand Radar guide
+	•	Ahrefs Instagram hashtag generator
+	•	Ahrefs free writing tools
+	•	Ahrefs AI tools guide
+Comparativas
+	•	Ahrefs vs Moz comparison
+	•	Ahrefs vs SE Ranking
+	•	Ahrefs alternatives guide
+	•	Ahrefs plans comparison
+	•	Ahrefs Lite vs Standard
+	•	Ahrefs for agencies
+	•	Ahrefs for ecommerce
+
+
+
+📸 INSTAGRAM TOOLS — Expansión completa
+Generadores y calculadoras
+	•	Instagram hashtag generator
+	•	Instagram caption generator
+	•	Instagram bio generator
+	•	Instagram username generator
+	•	Instagram engagement rate calculator
+	•	Instagram earnings calculator
+	•	Instagram follower growth calculator
+	•	Instagram reach calculator
+	•	Instagram story viewer
+	•	Instagram profile analyzer
+	•	Instagram competitor analyzer
+	•	Instagram post ideas generator
+	•	Instagram Reels ideas generator
+	•	Instagram carousel ideas
+	•	Instagram hook generator
+Estrategia y optimización
+	•	Instagram SEO guide
+	•	Instagram algorithm guide
+	•	Instagram hashtag strategy guide
+	•	Instagram hashtag limit guide (5 tags 2025)
+	•	Instagram Reels strategy guide
+	•	Instagram posting times guide
+	•	best time to post Instagram
+	•	Instagram content calendar template
+	•	Instagram content pillars guide
+	•	Instagram Stories strategy guide
+	•	Instagram Collab post guide
+	•	Instagram broadcast channel guide
+	•	Instagram link in bio guide
+	•	Instagram shopping guide
+Analytics y métricas
+	•	Instagram engagement rate guide
+	•	Instagram reach vs impressions
+	•	Instagram metrics guide
+	•	Instagram analytics guide
+	•	Instagram insights guide
+	•	Instagram follower growth guide
+	•	Instagram competitor analysis
+	•	Instagram benchmark guide
+	•	influencer engagement rate guide
+	•	fake followers checker
+	•	Instagram CPM guide
+	•	Instagram ads benchmarks
+Formato y creación
+	•	Instagram image size guide
+	•	Instagram image dimensions guide
+	•	Instagram Reels size guide
+	•	Instagram Stories dimensions
+	•	Instagram carousel template
+	•	Instagram fonts generator
+	•	Instagram bio characters limit
+	•	Instagram caption length guide
+	•	Instagram link in bio tools comparison
+	•	Linktree vs alternatives
+
+
+
+📘 FACEBOOK ADS — Expansión completa
+Calculadoras de campaña
+	•	Facebook Ads calculator
+	•	Facebook Ads budget calculator
+	•	Facebook Ads CPM calculator
+	•	Facebook Ads CPC calculator
+	•	Facebook Ads ROAS calculator
+	•	Facebook Ads ROI calculator
+	•	Facebook Ads CPA calculator
+	•	Facebook Ads CTR calculator
+	•	Facebook Ads breakeven ROAS
+	•	Facebook Ads cost estimator
+	•	Facebook Ads budget guide
+	•	Meta Ads calculator
+Estrategia y configuración
+	•	Facebook Ads guide
+	•	Meta Ads guide
+	•	Facebook Ads campaign structure
+	•	Facebook Ads objectives guide
+	•	Facebook Ads audience guide
+	•	Facebook Ads custom audience guide
+	•	Facebook Ads lookalike audience
+	•	Facebook Ads retargeting guide
+	•	Facebook Ads pixel guide
+	•	Meta pixel guide
+	•	Conversions API guide
+	•	Facebook Ads bidding guide
+	•	Facebook Ads placement guide
+	•	Facebook Ads vs Google Ads
+	•	Meta Ads vs TikTok Ads
+Creatividades y copy
+	•	Facebook Ads creative guide
+	•	Facebook Ads copy guide
+	•	Facebook Ads headline guide
+	•	Facebook Ads CTA guide
+	•	Facebook ad copy generator
+	•	Facebook ad headline generator
+	•	Facebook Ads image size guide
+	•	Facebook Ads video specs
+	•	Facebook carousel ad guide
+	•	Facebook Ads A/B testing guide
+	•	UGC ads guide Facebook
+	•	Facebook Ads creative brief template
+Métricas y optimización
+	•	Facebook Ads metrics guide
+	•	Facebook Ads benchmarks 2025
+	•	Facebook Ads frequency guide
+	•	Facebook Ads ad fatigue guide
+	•	Facebook Ads Quality Ranking
+	•	Facebook Ads attribution guide
+	•	Facebook Ads reporting guide
+	•	Facebook Ads scaling guide
+	•	Facebook Ads troubleshooting
+	•	Facebook Ads relevance score
+	•	Facebook Ads CPM benchmarks
+
+
+
+📱 TIKTOK ADS — Expansión completa
+Calculadoras
+	•	TikTok Ads calculator
+	•	TikTok Ads cost calculator
+	•	TikTok Ads CPM calculator
+	•	TikTok Ads ROAS calculator
+	•	TikTok Ads budget calculator
+	•	TikTok Ads CPA calculator
+	•	TikTok Ads ROI calculator
+	•	TikTok Ads CPC calculator
+	•	TikTok Ads breakeven ROAS
+	•	TikTok Ads vs Facebook Ads comparison
+Estrategia y formatos
+	•	TikTok Ads guide
+	•	TikTok Ads Manager guide
+	•	TikTok Ads campaign structure
+	•	TikTok Ads objectives guide
+	•	TikTok Ads formats guide
+	•	In-Feed Ads guide
+	•	TopView Ads guide
+	•	Branded Hashtag Challenge guide
+	•	Spark Ads guide
+	•	TikTok Shopping Ads guide
+	•	TikTok Ads targeting guide
+	•	TikTok custom audience guide
+	•	TikTok lookalike audience
+	•	TikTok pixel guide
+	•	TikTok bidding guide
+Creatividades
+	•	TikTok Ads creative guide
+	•	TikTok ad copy guide
+	•	TikTok ad hook generator
+	•	TikTok UGC ads guide
+	•	TikTok native ads guide
+	•	TikTok video specs guide
+	•	TikTok Ads creative brief
+	•	TikTok vs Reels ads comparison
+	•	TikTok creative center guide
+	•	TikTok trending sounds for ads
+Métricas y optimización
+	•	TikTok Ads metrics guide
+	•	TikTok Ads benchmarks 2025
+	•	TikTok Ads CPM benchmarks
+	•	TikTok Ads VTR guide
+	•	TikTok Ads ROAS benchmarks
+	•	TikTok attribution guide
+	•	TikTok Ads scaling guide
+	•	TikTok Ads reporting guide
+	•	TikTok Shop ads guide
+
+
+
+
+📈 LOOKER STUDIO — Expansión completa
+Setup y configuración
+	•	Looker Studio guide
+	•	Looker Studio tutorial
+	•	Google Data Studio guide
+	•	Looker Studio cheatsheet
+	•	Looker Studio vs Tableau comparison
+	•	Looker Studio vs Power BI
+	•	Looker Studio templates guide
+	•	Looker Studio free templates
+	•	Looker Studio dashboard guide
+	•	Looker Studio report guide
+	•	Looker Studio connectors guide
+Conectores principales
+	•	Looker Studio Google Analytics 4
+	•	GA4 Looker Studio guide
+	•	Looker Studio Google Search Console
+	•	Looker Studio Google Ads
+	•	Looker Studio Facebook Ads
+	•	Looker Studio Meta Ads connector
+	•	Looker Studio TikTok Ads connector
+	•	Looker Studio Instagram connector
+	•	Looker Studio Semrush connector
+	•	Looker Studio Ahrefs connector
+	•	Looker Studio Shopify connector
+	•	Looker Studio BigQuery connector
+	•	Looker Studio Google Sheets
+Visualizaciones y fórmulas
+	•	Looker Studio calculated fields
+	•	Looker Studio blended data
+	•	Looker Studio CASE WHEN guide
+	•	Looker Studio date range guide
+	•	Looker Studio filter guide
+	•	Looker Studio custom metrics
+	•	Looker Studio scorecards guide
+	•	Looker Studio charts guide
+	•	Looker Studio tables guide
+	•	Looker Studio heatmap guide
+	•	Looker Studio regex guide
+	•	Looker Studio REGEXP_MATCH
+	•	Looker Studio parameters guide
+	•	Looker Studio community data
+Reportes y casos de uso
+	•	Looker Studio SEO dashboard
+	•	Looker Studio PPC dashboard
+	•	Looker Studio ecommerce dashboard
+	•	Looker Studio social media dashboard
+	•	Looker Studio marketing report
+	•	Looker Studio agency report
+	•	Looker Studio white label guide
+	•	Looker Studio client report
+	•	Looker Studio data source guide
+	•	Supermetrics vs Looker Studio
+	•	Supermetrics guide
+	•	Looker Studio automation
+
+
+￼
+
+
+
+
+Rocketfy específico
+	•	Rocketfy guía
+	•	Rocketfy tutorial
+	•	Rocketfy Colombia
+	•	Rocketfy México
+	•	cómo funciona Rocketfy
+	•	Rocketfy vs Shopify
+	•	Rocketfy proveedores guide
+	•	Rocketfy productos ganadores
+	•	Rocketfy calculadora envíos
+	•	Rocketfy tienda online
+	•	Rocketfy comisiones guide
+	•	Rocketfy transportadoras
+	•	Rocketfy contraentrega guide
+	•	Rocketfy Meta Pixel guide
+	•	Rocketfy TikTok Ads guide
+	•	Rocketfy Academia
+	•	Dropi vs Rocketfy comparison
+	•	Triidy vs Rocketfy
+Dropshipping LATAM (español)
+	•	dropshipping Colombia guide
+	•	dropshipping México guide
+	•	dropshipping contraentrega
+	•	dropshipping sin inventario
+	•	cómo hacer dropshipping
+	•	dropshipping para principiantes
+	•	dropshipping Shopify Colombia
+	•	dropshipping WooCommerce
+	•	plataformas dropshipping Colombia
+	•	mejores proveedores dropshipping
+	•	proveedores dropshipping Colombia
+	•	proveedores dropshipping México
+	•	productos ganadores dropshipping
+	•	nicho dropshipping rentable
+Calculadoras dropshipping
+	•	calculadora margen dropshipping
+	•	calculadora ganancia dropshipping
+	•	calculadora precio dropshipping
+	•	profit calculator dropshipping
+	•	dropshipping profit calculator
+	•	calculadora envío dropshipping
+	•	calculadora ROAS dropshipping
+	•	breakeven dropshipping calculator
+	•	costo por adquisición dropshipping
+	•	margen de ganancia ecommerce
+Investigación de productos
+	•	encontrar productos ganadores
+	•	winning products dropshipping
+	•	product research dropshipping
+	•	productos trending dropshipping
+	•	spy ads dropshipping guide
+	•	AliExpress spy tools
+	•	TikTok productos virales
+	•	Facebook Ads spy dropshipping
+	•	Minea guide
+	•	Pipiads guide
+	•	Dropship.io guide
+	•	Niche Scraper guide
+	•	Sell the Trend guide
+Logística y operaciones
+	•	dropshipping contraentrega Colombia
+	•	transportadoras dropshipping Colombia
+	•	Servientrega dropshipping
+	•	TCC dropshipping guide
+	•	tiempo de entrega dropshipping
+	•	gestión pedidos dropshipping
+	•	devoluciones dropshipping
+	•	tasa de efectividad dropshipping
+	•	fulfillment dropshipping
+Marketing para dropshipping
+	•	Facebook Ads dropshipping guide
+	•	TikTok Ads dropshipping guide
+	•	creative brief dropshipping
+	•	UGC ads dropshipping
+	•	embudo ventas dropshipping
+	•	landing page dropshipping
+	•	WhatsApp dropshipping guide
+	•	email marketing dropshipping
+	•	copywriting dropshipping
+
+
+
+💼 LINKEDIN — Expansión completa
+Perfil y presencia
+	•	LinkedIn profile guide
+	•	LinkedIn profile optimization
+	•	LinkedIn headline guide
+	•	LinkedIn summary guide
+	•	LinkedIn about section guide
+	•	LinkedIn banner guide
+	•	LinkedIn featured section
+	•	LinkedIn profile checklist
+	•	LinkedIn SSI guide (Social Selling Index)
+	•	LinkedIn SSI calculator
+	•	LinkedIn profile photo guide
+	•	LinkedIn URL customization
+	•	LinkedIn recommendations guide
+	•	LinkedIn skills guide
+	•	LinkedIn endorsements guide
+Contenido y algoritmo
+	•	LinkedIn algorithm guide
+	•	LinkedIn content strategy guide
+	•	LinkedIn post guide
+	•	LinkedIn post character limit
+	•	LinkedIn post character counter
+	•	LinkedIn post ideas
+	•	LinkedIn hook examples
+	•	LinkedIn carousel guide
+	•	LinkedIn document post guide
+	•	LinkedIn video guide
+	•	LinkedIn newsletter guide
+	•	LinkedIn article guide
+	•	LinkedIn poll guide
+	•	best time to post LinkedIn
+	•	LinkedIn engagement rate guide
+	•	LinkedIn hashtag guide
+	•	LinkedIn hashtag limit
+Networking y outreach
+	•	LinkedIn connection request guide
+	•	LinkedIn connection request template
+	•	LinkedIn connection message template
+	•	LinkedIn InMail guide
+	•	LinkedIn InMail template
+	•	LinkedIn InMail character limit
+	•	LinkedIn message character limit
+	•	LinkedIn follow-up message template
+	•	LinkedIn cold message guide
+	•	LinkedIn outreach guide
+	•	LinkedIn outreach templates
+	•	LinkedIn invitation limit guide
+	•	LinkedIn weekly invitation limit
+	•	LinkedIn Boolean search guide
+	•	LinkedIn search filters guide
+Crecimiento y automatización
+	•	LinkedIn automation guide
+	•	LinkedIn automation tools comparison
+	•	LinkedIn growth hacking guide
+	•	LinkedIn lead generation guide
+	•	LinkedIn personal branding guide
+	•	LinkedIn thought leadership guide
+	•	LinkedIn Creator Mode guide
+	•	LinkedIn company page guide
+	•	LinkedIn company page vs personal
+	•	LinkedIn ads guide
+	•	LinkedIn sponsored content guide
+	•	LinkedIn Lead Gen Forms guide
+
+
+
+🎯 LINKEDIN SALES NAVIGATOR — Expansión completa
+Búsqueda y filtros
+	•	LinkedIn Sales Navigator guide
+	•	Sales Navigator cheatsheet
+	•	Sales Navigator filters guide
+	•	Sales Navigator lead filters
+	•	Sales Navigator account filters
+	•	Sales Navigator Boolean search
+	•	Sales Navigator search guide
+	•	Sales Navigator vs LinkedIn Premium
+	•	Sales Navigator plans comparison
+	•	Sales Navigator pricing guide
+	•	Sales Navigator free trial
+Prospección y leads
+	•	Sales Navigator lead lists guide
+	•	Sales Navigator saved leads
+	•	Sales Navigator alerts guide
+	•	Sales Navigator job change alert
+	•	Sales Navigator lead recommendations
+	•	Sales Navigator TeamLink guide
+	•	Sales Navigator Account IQ guide
+	•	Sales Navigator Lead IQ guide
+	•	Sales Navigator buyer intent
+	•	Sales Navigator warm outreach
+	•	Sales Navigator InMail guide
+	•	Sales Navigator InMail credits
+	•	Sales Navigator InMail template
+	•	Sales Navigator connection request
+	•	Sales Navigator open profiles
+Estrategias de prospección
+	•	Sales Navigator prospecting guide
+	•	Sales Navigator lead generation
+	•	Sales Navigator B2B guide
+	•	Sales Navigator SDR guide
+	•	Sales Navigator workflow guide
+	•	Sales Navigator trigger events
+	•	Sales Navigator intent signals
+	•	Sales Navigator news alerts
+	•	Sales Navigator content alerts
+	•	Sales Navigator persona targeting
+	•	Sales Navigator decision maker
+	•	Sales Navigator C-suite guide
+	•	Sales Navigator persona cheatsheet
+Integración y CRM
+	•	Sales Navigator CRM integration
+	•	Sales Navigator HubSpot guide
+	•	Sales Navigator Salesforce guide
+	•	Sales Navigator Pipedrive guide
+	•	Sales Navigator export guide
+	•	Sales Navigator CSV export
+	•	Sales Navigator data enrichment
+	•	Sales Navigator API guide
+	•	Sales Navigator ROI calculator
+Social selling y outreach
+	•	social selling LinkedIn guide
+	•	SSI score guide
+	•	SSI calculator LinkedIn
+	•	social selling index improvement
+	•	LinkedIn outreach sequence
+	•	multi-touch LinkedIn outreach
+	•	LinkedIn email outreach combo
+	•	LinkedIn cold outreach best practices
+	•	personalized LinkedIn message guide
+	•	LinkedIn voice note guide
+	•	LinkedIn video message guide
+	•	reply rate LinkedIn guide
+	•	LinkedIn follow-up sequence
+	•	Sales Navigator message templates
+Métricas y ROI
+	•	Sales Navigator ROI calculator
+	•	Sales Navigator metrics guide
+	•	pipeline from LinkedIn guide
+	•	LinkedIn conversion rate guide
+	•	InMail response rate guide
+	•	connection acceptance rate guide
+	•	LinkedIn lead quality guide
+	•	LinkedIn attribution guide
+￼
+
+
+
+🔄 N8N — Expansión completa
+Core y arquitectura
+	•	n8n guide
+	•	n8n cheatsheet
+	•	n8n tutorial
+	•	n8n setup guide
+	•	n8n self-hosted guide
+	•	n8n Docker guide
+	•	n8n cloud vs self-hosted
+	•	n8n vs Zapier comparison
+	•	n8n vs Make comparison
+	•	n8n vs Zapier vs Make
+	•	n8n pricing guide
+	•	n8n open source guide
+	•	n8n fair-code license
+	•	n8n nodes reference
+	•	n8n workflow guide
+Nodes y triggers
+	•	n8n webhook guide
+	•	n8n HTTP Request node
+	•	n8n cron job guide
+	•	n8n schedule trigger
+	•	n8n IF node guide
+	•	n8n Switch node
+	•	n8n Set node guide
+	•	n8n Merge node
+	•	n8n Loop node
+	•	n8n Split In Batches
+	•	n8n Code node guide
+	•	n8n JavaScript node
+	•	n8n Python node
+	•	n8n Function node
+	•	n8n expressions guide
+	•	n8n data transformation
+Integraciones populares
+	•	n8n Google Sheets guide
+	•	n8n Gmail guide
+	•	n8n Slack guide
+	•	n8n Notion guide
+	•	n8n Airtable guide
+	•	n8n HubSpot guide
+	•	n8n OpenAI guide
+	•	n8n Anthropic Claude node
+	•	n8n PostgreSQL guide
+	•	n8n MySQL guide
+	•	n8n API integration guide
+	•	n8n custom node guide
+AI y agentes
+	•	n8n AI guide
+	•	n8n AI agent guide
+	•	n8n LangChain guide
+	•	n8n LLM node
+	•	n8n OpenAI node
+	•	n8n AI workflow examples
+	•	n8n RAG guide
+	•	n8n vector store guide
+	•	n8n MCP guide
+	•	n8n AI agent workflow
+	•	n8n chatbot guide
+	•	n8n automation AI 2025
+Patrones y casos de uso
+	•	n8n workflow templates
+	•	n8n workflow examples
+	•	n8n lead generation workflow
+	•	n8n email automation
+	•	n8n CRM automation
+	•	n8n data sync workflow
+	•	n8n error handling guide
+	•	n8n retry guide
+	•	n8n debugging guide
+	•	n8n execution history
+	•	n8n environment variables
+
+
+
+⚡ ZAPIER — Expansión completa
+Core y Zaps
+	•	Zapier guide
+	•	Zapier cheatsheet
+	•	Zapier tutorial
+	•	Zapier vs Make comparison
+	•	Zapier vs n8n comparison
+	•	Zapier pricing guide
+	•	Zapier free plan guide
+	•	Zapier tasks guide
+	•	Zapier Zap guide
+	•	how to build a Zap
+	•	Zapier trigger guide
+	•	Zapier action guide
+	•	Zapier filter guide
+	•	Zapier paths guide
+	•	Zapier delay guide
+Herramientas avanzadas
+	•	Zapier formatter guide
+	•	Zapier Code by Zapier
+	•	Zapier Webhook guide
+	•	Zapier Tables guide
+	•	Zapier Interfaces guide
+	•	Zapier Canvas guide
+	•	Zapier AI guide
+	•	Zapier MCP guide
+	•	Zapier loops guide
+	•	Zapier multi-step Zap
+	•	Zapier error handling
+	•	Zapier custom values
+Integraciones top
+	•	Zapier Gmail guide
+	•	Zapier Google Sheets guide
+	•	Zapier Slack guide
+	•	Zapier HubSpot guide
+	•	Zapier Salesforce guide
+	•	Zapier Notion guide
+	•	Zapier Airtable guide
+	•	Zapier Shopify guide
+	•	Zapier Typeform guide
+	•	Zapier Stripe guide
+	•	Zapier OpenAI guide
+	•	Zapier ChatGPT automation
+Automatizaciones comunes
+	•	Zapier lead generation automation
+	•	Zapier email automation
+	•	Zapier CRM automation
+	•	Zapier social media automation
+	•	Zapier ecommerce automation
+	•	Zapier task management
+	•	Zapier workflow examples
+	•	Zapier templates guide
+	•	Zapier task counter
+	•	reduce Zapier tasks
+
+
+
+
+
+📊 AIRTABLE — Expansión completa
+Core y bases
+	•	Airtable guide
+	•	Airtable cheatsheet
+	•	Airtable tutorial
+	•	Airtable vs Notion comparison
+	•	Airtable vs Google Sheets
+	•	Airtable pricing guide
+	•	Airtable free plan guide
+	•	Airtable base guide
+	•	Airtable table guide
+	•	Airtable view guide
+	•	Airtable record guide
+	•	Airtable field types guide
+	•	Airtable linked records guide
+	•	Airtable lookup field
+	•	Airtable rollup field
+	•	Airtable formula field guide
+Fórmulas — el tema más buscado
+	•	Airtable formulas guide
+	•	Airtable formula cheatsheet
+	•	Airtable formula reference
+	•	Airtable IF formula
+	•	Airtable SWITCH formula
+	•	Airtable CONCATENATE formula
+	•	Airtable date formulas
+	•	Airtable DATETIME_DIFF
+	•	Airtable DATEADD formula
+	•	Airtable TODAY formula
+	•	Airtable text formulas
+	•	Airtable TRIM LOWER UPPER
+	•	Airtable FIND formula
+	•	Airtable SUBSTITUTE formula
+	•	Airtable math formulas
+	•	Airtable SUM AVG formula
+	•	Airtable conditional formula
+	•	Airtable nested IF formula
+	•	Airtable RECORD_ID formula
+	•	Airtable formula examples
+	•	Airtable formula errors guide
+Vistas y organización
+	•	Airtable Grid view guide
+	•	Airtable Gallery view
+	•	Airtable Kanban view guide
+	•	Airtable Calendar view
+	•	Airtable Gantt view guide
+	•	Airtable Timeline view
+	•	Airtable filter guide
+	•	Airtable sort guide
+	•	Airtable group guide
+	•	Airtable hide fields
+	•	Airtable lock view
+	•	Airtable color coding guide
+Automatizaciones
+	•	Airtable automations guide
+	•	Airtable automation trigger
+	•	Airtable send email automation
+	•	Airtable Slack automation
+	•	Airtable script automation
+	•	Airtable JavaScript scripting
+	•	Airtable webhook guide
+	•	Airtable run script action
+	•	Airtable conditional logic
+	•	Airtable automation limits
+API e integraciones
+	•	Airtable API guide
+	•	Airtable API reference
+	•	Airtable API key guide
+	•	Airtable filterByFormula
+	•	Airtable API pagination
+	•	Airtable REST API guide
+	•	Airtable n8n integration
+	•	Airtable Zapier guide
+	•	Airtable Make integration
+	•	Airtable Notion sync
+Casos de uso
+	•	Airtable CRM guide
+	•	Airtable project management
+	•	Airtable content calendar
+	•	Airtable inventory tracking
+	•	Airtable product roadmap
+	•	Airtable marketing campaign tracker
+	•	Airtable client database
+	•	Airtable editorial calendar
+	•	Airtable HR database
+	•	Airtable templates guide
+
+
+
+
+🎬 CAPCUT — Expansión completa
+Edición básica
+	•	CapCut guide
+	•	CapCut tutorial
+	•	CapCut cheatsheet
+	•	CapCut shortcuts guide
+	•	CapCut vs DaVinci Resolve
+	•	CapCut vs Premiere Pro
+	•	CapCut vs iMovie
+	•	CapCut desktop guide
+	•	CapCut mobile guide
+	•	CapCut online guide
+	•	CapCut export settings guide
+	•	CapCut export quality guide
+	•	CapCut 4K export guide
+	•	CapCut without watermark
+	•	CapCut free features guide
+Herramientas AI
+	•	CapCut AI guide
+	•	CapCut auto captions guide
+	•	CapCut auto subtitle
+	•	CapCut text to speech
+	•	CapCut voice changer guide
+	•	CapCut background remover
+	•	CapCut AI video enhancer
+	•	CapCut AI upscaler
+	•	CapCut face retouching
+	•	CapCut auto cut guide
+	•	CapCut script to video
+	•	CapCut AI voice guide
+Efectos y transiciones
+	•	CapCut transitions guide
+	•	CapCut effects guide
+	•	CapCut filters guide
+	•	CapCut green screen guide
+	•	CapCut chroma key guide
+	•	CapCut overlay guide
+	•	CapCut split screen guide
+	•	CapCut text animation guide
+	•	CapCut keyframe guide
+	•	CapCut speed ramp guide
+	•	CapCut slow motion guide
+	•	CapCut reverse video guide
+TikTok y redes sociales
+	•	CapCut for TikTok guide
+	•	CapCut TikTok templates
+	•	CapCut Reels guide
+	•	CapCut YouTube Shorts
+	•	CapCut aspect ratio guide
+	•	CapCut 9:16 guide
+	•	CapCut 16:9 guide
+	•	CapCut video dimensions guide
+	•	CapCut trending effects
+	•	CapCut viral video guide
+Audio y sonido
+	•	CapCut music guide
+	•	CapCut sound effects guide
+	•	CapCut audio sync guide
+	•	CapCut voiceover guide
+	•	CapCut audio ducking
+	•	CapCut beat sync guide
+	•	CapCut background music guide
+	•	CapCut noise reduction
+
+
+
+🎙️ OBS STUDIO — Expansión completa
+Setup y configuración básica
+	•	OBS Studio guide
+	•	OBS Studio tutorial
+	•	OBS Studio cheatsheet
+	•	OBS Studio setup guide
+	•	OBS Studio best settings
+	•	OBS Studio output settings
+	•	OBS Studio encoding guide
+	•	OBS Studio bitrate guide
+	•	OBS Studio resolution guide
+	•	OBS Studio FPS guide
+	•	OBS Studio audio guide
+	•	OBS Studio microphone setup
+	•	OBS Studio desktop audio
+	•	OBS vs Streamlabs OBS
+	•	OBS vs XSplit comparison
+Scenes y sources
+	•	OBS scenes guide
+	•	OBS sources guide
+	•	OBS scene collection guide
+	•	OBS Display Capture guide
+	•	OBS Game Capture guide
+	•	OBS Window Capture guide
+	•	OBS webcam guide
+	•	OBS media source guide
+	•	OBS browser source guide
+	•	OBS image source guide
+	•	OBS text source guide
+	•	OBS NDI guide
+	•	OBS virtual camera guide
+	•	OBS scene transitions
+	•	OBS hotkeys guide
+	•	OBS hotkey reference
+Streaming
+	•	OBS streaming guide
+	•	OBS Twitch setup guide
+	•	OBS YouTube streaming
+	•	OBS Facebook Live guide
+	•	OBS TikTok Live guide
+	•	OBS Instagram Live guide
+	•	OBS multistream guide
+	•	OBS stream key guide
+	•	OBS stream delay guide
+	•	OBS low latency guide
+	•	OBS RTMP guide
+	•	OBS bitrate for Twitch
+	•	OBS bitrate for YouTube
+	•	OBS stream quality guide
+Recording
+	•	OBS recording guide
+	•	OBS recording settings
+	•	OBS recording format guide
+	•	OBS MKV vs MP4
+	•	OBS recording path guide
+	•	OBS replay buffer guide
+	•	OBS screen recording guide
+	•	OBS gameplay recording
+	•	OBS podcast recording guide
+	•	OBS output file guide
+Filtros y plugins
+	•	OBS filters guide
+	•	OBS noise suppression
+	•	OBS noise gate guide
+	•	OBS compressor guide
+	•	OBS color correction
+	•	OBS chroma key guide
+	•	OBS green screen guide
+	•	OBS blur filter guide
+	•	OBS plugins guide
+	•	OBS best plugins 2025
+	•	StreamFX guide
+	•	obs-websocket guide
+	•	OBS browser plugin
+Performance y troubleshooting
+	•	OBS high CPU usage fix
+	•	OBS low FPS fix
+	•	OBS encoding overloaded fix
+	•	OBS dropped frames fix
+	•	OBS lag guide
+	•	OBS GPU encoding guide
+	•	OBS NVENC guide
+	•	OBS AMD AMF guide
+	•	OBS x264 vs NVENC
+	•	OBS performance guide
+	•	OBS system requirements
+
+￼
+
+
+
+
+🖥️ WEB SERVER SECURITY — Expansión completa
+Hardening general
+	•	web server hardening guide
+	•	web server security checklist
+	•	server hardening guide
+	•	Linux server hardening
+	•	web server security best practices
+	•	server security checklist 2025
+	•	server misconfiguration guide
+	•	server attack surface guide
+	•	defense in depth guide
+	•	web server penetration testing
+	•	web server vulnerability scanner
+HTTP Security Headers
+	•	HTTP security headers guide
+	•	security headers generator
+	•	security headers checker
+	•	Content-Security-Policy guide
+	•	CSP generator
+	•	CSP tester
+	•	X-Frame-Options guide
+	•	X-Content-Type-Options guide
+	•	X-XSS-Protection guide
+	•	HSTS guide
+	•	HSTS preload guide
+	•	Referrer-Policy guide
+	•	Permissions-Policy guide
+	•	CORS headers guide
+	•	security headers reference
+SSL/TLS
+	•	SSL TLS configuration guide
+	•	TLS 1.2 vs TLS 1.3 comparison
+	•	SSL cipher suite guide
+	•	SSL cipher suite generator
+	•	weak cipher suites guide
+	•	SSL Labs test guide
+	•	SSL certificate guide
+	•	Let's Encrypt guide
+	•	OCSP stapling guide
+	•	certificate pinning guide
+	•	mTLS guide
+	•	SSL stripping guide
+	•	BEAST attack guide
+	•	POODLE attack guide
+	•	SSL/TLS hardening checklist
+Nginx hardening
+	•	nginx hardening guide
+	•	nginx security guide
+	•	nginx security headers
+	•	nginx SSL configuration
+	•	nginx rate limiting guide
+	•	nginx access control guide
+	•	nginx limit_req guide
+	•	nginx server tokens guide
+	•	nginx ModSecurity guide
+	•	nginx WAF guide
+	•	nginx config security generator
+	•	nginx location blocks security
+	•	nginx reverse proxy security
+	•	nginx DDoS protection guide
+Apache hardening
+	•	Apache hardening guide
+	•	Apache security guide
+	•	Apache security checklist
+	•	Apache mod_security guide
+	•	Apache mod_evasive guide
+	•	Apache ServerTokens guide
+	•	Apache TraceEnable guide
+	•	Apache .htaccess security
+	•	Apache SSL configuration
+	•	Apache directory listing disable
+	•	Apache ETag security guide
+	•	Apache timeout guide
+	•	Apache httpd.conf security
+	•	Apache LimitRequestBody guide
+WAF y Firewall
+	•	WAF guide
+	•	Web Application Firewall guide
+	•	ModSecurity guide
+	•	ModSecurity OWASP CRS guide
+	•	OWASP Core Rule Set
+	•	WAF vs IPS comparison
+	•	Cloudflare WAF guide
+	•	AWS WAF guide
+	•	fail2ban guide
+	•	fail2ban configuration guide
+	•	rate limiting guide web server
+	•	IP blocking guide
+	•	DDoS protection guide
+
+
+
+💣 METASPLOIT — Expansión completa
+Framework y arquitectura
+	•	Metasploit guide
+	•	Metasploit tutorial
+	•	Metasploit cheatsheet
+	•	Metasploit Framework guide
+	•	msfconsole guide
+	•	msfconsole commands reference
+	•	Metasploit modules guide
+	•	Metasploit exploit guide
+	•	Metasploit payload guide
+	•	Metasploit auxiliary modules
+	•	Metasploit post modules
+	•	Metasploit vs Cobalt Strike
+	•	Kali Linux Metasploit guide
+Exploits y payloads
+	•	Metasploit exploit modules
+	•	search command Metasploit
+	•	use command Metasploit
+	•	set RHOSTS guide Metasploit
+	•	show options Metasploit
+	•	run exploit Metasploit
+	•	Metasploit payload types
+	•	staged vs stageless payload
+	•	reverse shell Metasploit
+	•	bind shell Metasploit
+	•	msfvenom guide
+	•	msfvenom cheatsheet
+	•	msfvenom payload generator
+	•	msfvenom commands reference
+Meterpreter
+	•	Meterpreter guide
+	•	Meterpreter cheatsheet
+	•	Meterpreter commands reference
+	•	Meterpreter sessions guide
+	•	Meterpreter hashdump guide
+	•	Meterpreter upload download
+	•	Meterpreter shell guide
+	•	Meterpreter migrate guide
+	•	Meterpreter persistence guide
+	•	Meterpreter screenshot guide
+	•	Meterpreter keyscan guide
+	•	Meterpreter privilege escalation
+	•	Meterpreter detection guide
+	•	Meterpreter evasion guide
+Reconocimiento y scanning
+	•	Metasploit scanner modules
+	•	Metasploit nmap integration
+	•	Metasploit db_nmap guide
+	•	Metasploit port scanner
+	•	Metasploit SMB scanner
+	•	Metasploit vulnerability scanner
+	•	Metasploit OSINT modules
+	•	Metasploit auxiliary/scanner
+	•	Metasploit workspace guide
+Post-explotación
+	•	Metasploit post exploitation
+	•	Metasploit lateral movement
+	•	Metasploit pivoting guide
+	•	Metasploit route guide
+	•	Metasploit credential dump
+	•	Metasploit password dumping
+	•	Metasploit mimikatz guide
+	•	Metasploit cleanup guide
+	•	MITRE ATT&CK Metasploit mapping
+Ética y entornos de práctica
+	•	Metasploit ethical hacking guide
+	•	Metasploit CTF guide
+	•	Hack The Box Metasploit
+	•	TryHackMe Metasploit guide
+	•	Metasploit legal guide
+	•	penetration testing authorization
+	•	Metasploit practice environment
+	•	Metasploit Metasploitable guide
+
+
+
+
+🦠 MALWARE — Expansión completa
+Tipos y clasificación
+	•	malware types guide
+	•	malware classification guide
+	•	virus vs worm vs trojan
+	•	ransomware guide
+	•	spyware guide
+	•	adware guide
+	•	rootkit guide
+	•	keylogger guide
+	•	botnet guide
+	•	RAT guide (Remote Access Trojan)
+	•	fileless malware guide
+	•	polymorphic malware guide
+	•	APT malware guide
+	•	malware vs ransomware
+	•	malware families reference
+Análisis de malware
+	•	malware analysis guide
+	•	static malware analysis guide
+	•	dynamic malware analysis guide
+	•	malware reverse engineering guide
+	•	malware sandbox guide
+	•	VirusTotal guide
+	•	Any.run guide
+	•	Cuckoo Sandbox guide
+	•	Hybrid Analysis guide
+	•	malware IOC guide
+	•	Indicators of Compromise guide
+	•	malware hash checker
+	•	file hash checker
+	•	YARA rules guide
+	•	malware signature guide
+Detección y prevención
+	•	malware detection guide
+	•	antivirus vs EDR comparison
+	•	EDR guide
+	•	endpoint detection response guide
+	•	malware prevention guide
+	•	antivirus bypass guide (research)
+	•	AV evasion guide (research)
+	•	malware persistence mechanisms
+	•	registry persistence guide
+	•	malware C2 detection guide
+	•	command and control guide
+	•	malware network indicators
+	•	malware behavioral analysis
+Respuesta a incidentes
+	•	malware incident response guide
+	•	malware removal guide
+	•	ransomware response guide
+	•	ransomware recovery guide
+	•	ransomware decryptor tools
+	•	No More Ransom guide
+	•	malware containment guide
+	•	infected system guide
+	•	malware cleanup checklist
+	•	IOC hunting guide
+	•	threat hunting guide
+	•	malware triage guide
+
+
+
+🔬 INFORMÁTICA FORENSE (DIGITAL FORENSICS) — Expansión completa
+Fundamentos
+	•	digital forensics guide
+	•	computer forensics guide
+	•	forensics cheatsheet
+	•	digital forensics process guide
+	•	chain of custody guide
+	•	forensic evidence guide
+	•	forensic imaging guide
+	•	disk imaging guide
+	•	write blocker guide
+	•	forensic acquisition guide
+	•	forensic methodology guide
+	•	DFIR guide (Digital Forensics Incident Response)
+	•	incident response forensics guide
+Análisis de disco y archivos
+	•	disk forensics guide
+	•	file system forensics
+	•	NTFS forensics guide
+	•	FAT32 vs NTFS forensics
+	•	deleted file recovery guide
+	•	file carving guide
+	•	metadata analysis guide
+	•	file signature guide
+	•	magic bytes guide
+	•	hex editor guide
+	•	Autopsy guide
+	•	Sleuth Kit guide
+	•	FTK Imager guide
+	•	dd command forensics
+	•	dcfldd guide
+Memoria y volatility
+	•	memory forensics guide
+	•	Volatility guide
+	•	Volatility cheatsheet
+	•	Volatility commands reference
+	•	RAM forensics guide
+	•	process analysis forensics
+	•	memory artifact guide
+	•	Volatility plugins guide
+	•	memory dump analysis
+	•	live forensics guide
+	•	volatile data guide
+Network forensics
+	•	network forensics guide
+	•	PCAP analysis guide
+	•	Wireshark forensics guide
+	•	network traffic analysis guide
+	•	tcpdump forensics guide
+	•	network IOC guide
+	•	DNS forensics guide
+	•	log analysis forensics
+	•	SIEM forensics guide
+	•	firewall log analysis
+Artefactos del sistema
+	•	Windows forensics guide
+	•	Windows artifacts guide
+	•	registry forensics guide
+	•	Windows registry artifacts
+	•	prefetch forensics guide
+	•	event log forensics guide
+	•	Windows event IDs reference
+	•	browser forensics guide
+	•	browser artifacts guide
+	•	email forensics guide
+	•	Linux forensics guide
+	•	bash history forensics
+	•	Linux log forensics
+	•	macOS forensics guide
+	•	mobile forensics guide
+Herramientas
+	•	forensics tools guide
+	•	Autopsy guide
+	•	FTK guide
+	•	EnCase guide
+	•	SANS SIFT guide
+	•	REMnux guide
+	•	Kali Linux forensics guide
+	•	CAINE guide (Computer Aided INvestigative Environment)
+	•	ExifTool guide
+	•	Binwalk guide
+	•	strings command guide
+	•	forensic toolkit comparison
+Certificaciones y práctica
+	•	CHFI guide
+	•	GCFE guide
+	•	GCFA guide
+	•	digital forensics CTF guide
+	•	CyberDefenders guide
+	•	forensics challenge guide
+	•	DFIR report guide
+
+
+
+🛡️ DLP (DATA LOSS PREVENTION) — Expansión completa
+Fundamentos
+	•	DLP guide
+	•	data loss prevention guide
+	•	DLP types guide
+	•	DLP endpoint guide
+	•	DLP network guide
+	•	DLP cloud guide
+	•	data in motion guide
+	•	data at rest guide
+	•	data in use guide
+	•	DLP policy guide
+	•	DLP rules guide
+	•	DLP vs CASB comparison
+	•	DLP vs IRM comparison
+	•	DLP architecture guide
+Clasificación de datos
+	•	data classification guide
+	•	data classification policy
+	•	sensitive data types guide
+	•	PII guide
+	•	PHI guide
+	•	PCI data guide
+	•	intellectual property protection
+	•	data discovery guide
+	•	data inventory guide
+	•	data mapping guide
+	•	data labeling guide
+	•	content inspection guide
+	•	fingerprinting data guide
+	•	regex DLP patterns guide
+Herramientas y vendors
+	•	Microsoft Purview DLP guide
+	•	Microsoft 365 DLP guide
+	•	Forcepoint DLP guide
+	•	Symantec DLP guide
+	•	Digital Guardian guide
+	•	Nightfall AI guide
+	•	Cyberhaven guide
+	•	DLP tools comparison
+	•	DLP vendor comparison
+	•	open source DLP guide
+	•	MyDLP guide
+	•	OpenDLP guide
+Implementación y compliance
+	•	DLP implementation guide
+	•	DLP deployment guide
+	•	DLP policy templates
+	•	DLP false positives guide
+	•	DLP incident response guide
+	•	DLP alert guide
+	•	DLP monitoring guide
+	•	DLP compliance guide
+	•	GDPR DLP guide
+	•	HIPAA DLP guide
+	•	PCI DSS DLP guide
+	•	SOC 2 DLP guide
+	•	DLP audit guide
+	•	insider threat DLP guide
+Casos de uso específicos
+	•	email DLP guide
+	•	cloud DLP guide
+	•	endpoint DLP guide
+	•	USB DLP guide
+	•	printer DLP guide
+	•	DLP for Slack guide
+	•	DLP for Microsoft Teams
+	•	DLP for Google Workspace
+	•	DLP for Salesforce guide
+	•	DLP for GitHub guide
+	•	DLP shadow IT guide
+	•	DLP AI guide (datos en LLMs)
+
+Webcost 4
+
+🔍 CX Research (Customer Experience Research)
+	1.	CX Research Budget Estimator
+	2.	Survey Sample Size Calculator
+	3.	NPS Score Interpreter & Benchmark Tool
+	4.	Customer Effort Score (CES) Calculator
+	5.	CSAT Score Calculator
+	6.	Voice of Customer (VoC) Prioritization Matrix
+	7.	Research Method Selector (qual vs quant)
+	8.	Customer Journey Stage Mapper
+	9.	Interview Question Generator Checklist
+	10.	Persona Confidence Score Estimator
+	11.	Research Timeline Estimator
+	12.	Insight-to-Action Tracker Checklist
+	13.	CX Maturity Level Assessor
+	14.	Focus Group Cost Estimator
+	15.	Touchpoint Pain Point Ranker
+	16.	Research ROI Estimator
+
+🧪 UX Testing
+	1.	Usability Test Plan Checklist
+	2.	Task Success Rate Calculator
+	3.	Time-on-Task Benchmarker
+	4.	SUS (System Usability Scale) Score Calculator
+	5.	Error Rate Calculator
+	6.	A/B Test Sample Size Calculator
+	7.	Heuristic Evaluation Checklist (Nielsen’s 10)
+	8.	UX Test Budget Estimator
+	9.	Participant Screener Checklist
+	10.	Severity Rating Matrix for Usability Issues
+	11.	Moderated vs Unmoderated Test Selector
+	12.	Test Session Duration Estimator
+	13.	Cognitive Load Estimator
+	14.	Prototype Fidelity Selector Tool
+	15.	UX KPI Goal-Setting Tool
+	16.	Remote Testing Setup Checklist
+
+
+
+📖 Storybook (Component-Driven UI)
+	1.	Component Complexity Estimator
+	2.	Storybook Setup Checklist
+	3.	Story Coverage Score Calculator
+	4.	Design Token Naming Checklist
+	5.	Component Variants Matrix Generator
+	6.	Accessibility Story Checklist (a11y)
+	7.	Storybook Addon Selector
+	8.	Component Documentation Completeness Checker
+	9.	Design System Adoption Estimator
+	10.	Storybook Migration Effort Estimator
+	11.	Component Reusability Score
+	12.	Story-to-Component Ratio Calculator
+	13.	Design-Dev Handoff Checklist (Storybook-based)
+	14.	Chromatic Visual Testing Budget Estimator
+	15.	Component Library Audit Checklist
+	16.	Monorepo vs Single Repo Selector for Design Systems
+
+
+🚫 Dark Patterns
+	1.	Dark Pattern Detector Checklist
+	2.	Manipulative UX Risk Score Calculator
+	3.	Cookie Consent Compliance Checker
+	4.	Roach Motel Pattern Identifier
+	5.	Confirmshaming Tone Analyzer Checklist
+	6.	Hidden Cost Estimator / Transparency Score
+	7.	Urgency & Scarcity Authenticity Checker
+	8.	Privacy Zuckering Risk Assessor
+	9.	Dark Pattern Severity Ranker
+	10.	GDPR Dark Pattern Compliance Checklist
+	11.	Deceptive Design Audit Checklist
+	12.	Unsubscribe Friction Score Tool
+	13.	FTC Compliance Checklist for UI Copy
+	14.	Bait & Switch Detection Checklist
+	15.	Forced Continuity Risk Estimator
+	16.	Ethical UX Score Calculator
+
+
+
+🫧 Bubble.io / No-Code
+	1.	Bubble App Complexity Estimator
+	2.	No-Code vs Code Decision Tool
+	3.	Bubble Workflow Cost Estimator
+	4.	Database Schema Planner Checklist
+	5.	Bubble Plugin Selector Guide
+	6.	App Performance Risk Checker
+	7.	No-Code MVP Scope Estimator
+	8.	Bubble Pricing Plan Selector
+	9.	API Integration Readiness Checklist
+	10.	Bubble SEO Readiness Checklist
+	11.	No-Code App Launch Checklist
+	12.	User Role & Permission Planner
+	13.	Bubble to Custom Code Migration Estimator
+	14.	No-Code Stack Selector (Bubble vs Webflow vs Glide…)
+	15.	Bubble App Audit Checklist
+	16.	Monthly Running Cost Estimator (Bubble apps)
+
+￼
+
+🎬 Cine Independiente
+	1.	Indie Film Budget Estimator
+	2.	Shooting Days Calculator
+	3.	Cast & Crew Size Estimator
+	4.	Location Scouting Checklist
+	5.	Film Festival Submission Checklist
+	6.	Distribution Strategy Selector
+	7.	Script Coverage Score Tool
+	8.	Production Schedule Estimator
+	9.	Crowdfunding Goal Calculator (for indie films)
+	10.	Post-Production Timeline Estimator
+	11.	Film Genre Audience Size Estimator
+	12.	Indie Film ROI Estimator
+	13.	Equipment Rental Cost Estimator
+	14.	Film Permit Checklist
+	15.	Story Structure Checker (3-act, Save the Cat, etc.)
+	16.	Indie Film Press Kit Checklist
+
+🎞️ Adobe Premiere Pro
+	1.	Video Export Settings Selector
+	2.	Premiere Project Setup Checklist
+	3.	Proxy Workflow Estimator
+	4.	Color Grading Workflow Checklist
+	5.	Audio Mix Checklist for Video
+	6.	Premiere Keyboard Shortcut Audit Tool
+	7.	Multi-Cam Sync Estimator
+	8.	Storage Space Calculator for Video Projects
+	9.	Premiere vs Final Cut Decision Tool
+	10.	Render Time Estimator
+	11.	LUT Selector Guide
+	12.	Sequence Settings Selector (1080p, 4K, etc.)
+	13.	Auto-Reframe Output Checklist
+	14.	Premiere Plugin Selector
+	15.	Collaboration Workflow Checklist (Team Projects)
+	16.	Video Delivery Spec Checker
+
+
+✂️ Montaje / Video Editing
+	1.	Pacing Score Estimator
+	2.	Cut Ratio Calculator (dialogue vs action cuts)
+	3.	Scene Length Benchmarker
+	4.	Edit Timeline Complexity Estimator
+	5.	J-Cut & L-Cut Checklist
+	6.	Continuity Editing Checklist
+	7.	Rough Cut to Fine Cut Time Estimator
+	8.	Audio-to-Video Sync Checklist
+	9.	Montage Style Selector (parallel, rhythmic, etc.)
+	10.	Transitions Usage Checklist
+	11.	Color Consistency Checklist Across Scenes
+	12.	Editing Software Selector
+	13.	Story Pacing Analyzer
+	14.	Interview Editing Checklist (documentary style)
+	15.	Editor-Director Communication Checklist
+	16.	Final Delivery Format Selector
+
+
+
+🎨 DaVinci Resolve
+	1.	Resolve Project Setup Checklist
+	2.	Node Structure Complexity Estimator
+	3.	Color Grading Workflow Checklist
+	4.	Fusion vs After Effects Decision Tool
+	5.	Resolve Hardware Requirements Estimator
+	6.	ACES Color Pipeline Setup Checklist
+	7.	Fairlight Audio Mix Checklist
+	8.	Delivery Page Export Settings Selector
+	9.	Resolve Free vs Studio Feature Comparison Tool
+	10.	GPU Performance Estimator for Resolve
+	11.	Collaborative Workflow Checklist (PostgreSQL)
+	12.	LUT Management Checklist
+	13.	HDR Grading Setup Checklist
+	14.	Resolve Plugin Selector
+	15.	Timeline Resolution & Frame Rate Selector
+	16.	Color Managed Workflow Checklist
+
+
+
+🎨 Creación de Paletas de Color
+	1.	Color Harmony Type Selector (complementary, triadic, etc.)
+	2.	Brand Color Accessibility Checker (WCAG contrast)
+	3.	Color Mood Board Estimator
+	4.	Palette Size Recommender (primary, secondary, accent)
+	5.	Color Temperature Selector (warm vs cool)
+	6.	Color Psychology Reference Tool
+	7.	Tint & Shade Generator Guide
+	8.	Color Blindness Simulation Checklist
+	9.	Dark Mode Palette Adapter Checklist
+	10.	Print vs Digital Color Mode Selector (CMYK vs RGB)
+	11.	Brand Palette Audit Checklist
+	12.	Color Token Naming Checklist (design systems)
+	13.	Seasonal Color Trend Estimator
+	14.	Logo Color Contrast Checker
+	15.	Color Palette Export Format Selector
+	16.	Industry Color Benchmark Tool (tech, health, fashion…)
+
+
+🎥 Motion Graphics
+	1.	Motion Graphics Project Scope Estimator
+	2.	Animation Duration Benchmarker
+	3.	Frame Rate Selector (24fps, 30fps, 60fps)
+	4.	Motion Design Style Selector
+	5.	Storyboard Complexity Estimator
+	6.	Logo Animation Complexity Estimator
+	7.	Motion Graphics Delivery Format Checklist
+	8.	Easing Curve Selector Tool
+	9.	After Effects vs Motion Decision Tool
+	10.	Motion Graphics Budget Estimator
+	11.	Title Sequence Length Benchmarker
+	12.	Animation Principles Checklist (12 principles)
+	13.	Lower Third Design Checklist
+	14.	Social Media Motion Spec Selector (Reels, TikTok, YouTube)
+	15.	Motion Graphics Client Brief Checklist
+	16.	Asset Preparation Checklist (Illustrator → AE)
+
+
+
+🧊 Cinema 4D
+	1.	C4D Scene Complexity Estimator
+	2.	Render Time Estimator (CPU vs GPU)
+	3.	Polygon Count Benchmarker
+	4.	C4D MoGraph Complexity Checklist
+	5.	Scene File Size Estimator
+	6.	Cinema 4D Plugin Selector
+	7.	C4D to After Effects Workflow Checklist
+	8.	Rigging Complexity Estimator
+	9.	C4D Subscription Plan Selector
+	10.	Procedural vs Manual Modeling Decision Tool
+	11.	C4D Hardware Requirements Estimator
+	12.	Animation Keyframe Complexity Estimator
+	13.	C4D Project Organization Checklist
+	14.	Character Modeling Checklist
+	15.	C4D Lighting Setup Checklist
+	16.	Material & Texture Workflow Checklist
+
+
+
+🔴 Redshift (Renderer)
+	1.	Redshift vs Octane vs Arnold Decision Tool
+	2.	Redshift Render Time Estimator
+	3.	GPU VRAM Requirements Estimator
+	4.	Redshift Material Complexity Checklist
+	5.	Redshift Node Graph Audit Checklist
+	6.	Caustics & GI Setup Checklist
+	7.	Redshift Subscription Cost Estimator
+	8.	Render Farm Cost Estimator (Redshift)
+	9.	Redshift AOV Setup Checklist
+	10.	Redshift Lighting Setup Checklist
+	11.	HDR Environment Setup Checklist
+	12.	Redshift Camera Settings Selector
+	13.	Redshift Proxy Workflow Checklist
+	14.	Texture Resolution Benchmarker
+	15.	Redshift Scene Optimization Checklist
+	16.	C4D + Redshift Pipeline Setup Checklist
+
+￼
+
+
+
+
+🐳 Docker Avanzado
+	1.	Docker Image Size Optimizer Checklist
+	2.	Multi-Stage Build Complexity Estimator
+	3.	Container Memory Limit Calculator
+	4.	Docker Compose Service Dependency Mapper
+	5.	Dockerfile Best Practices Audit Checklist
+	6.	Docker Networking Mode Selector (bridge, host, overlay)
+	7.	Container Security Hardening Checklist
+	8.	Docker Volume Strategy Selector
+	9.	Registry Selection Tool (Docker Hub vs ECR vs GCR)
+	10.	Docker Swarm vs Kubernetes Decision Tool
+	11.	Layer Cache Efficiency Estimator
+	12.	Container CPU Allocation Calculator
+	13.	Health Check Configuration Checklist
+	14.	Docker Build Time Estimator
+	15.	Container Logging Strategy Selector
+	16.	Docker in CI/CD Pipeline Checklist
+
+
+
+🔐 AWS IAM
+	1.	IAM Policy Complexity Estimator
+	2.	Least Privilege Audit Checklist
+	3.	IAM Role vs User Decision Tool
+	4.	Service Control Policy (SCP) Checklist
+	5.	Cross-Account Access Setup Checklist
+	6.	IAM Permission Boundary Estimator
+	7.	MFA Enforcement Checklist
+	8.	IAM Credential Rotation Checklist
+	9.	AWS Managed vs Customer Managed Policy Selector
+	10.	IAM Access Analyzer Checklist
+	11.	Root Account Security Checklist
+	12.	Identity Federation Setup Checklist (SSO, SAML)
+	13.	IAM Role Naming Convention Checklist
+	14.	Temporary Credentials Strategy Selector (STS)
+	15.	IAM Audit & Compliance Checklist
+	16.	AWS Organizations IAM Structure Planner
+
+
+
+🗄️ SQL Azure (Azure SQL)
+	1.	Azure SQL Tier Selector (Basic, Standard, Premium, Hyperscale)
+	2.	DTU vs vCore Decision Tool
+	3.	Azure SQL Cost Estimator
+	4.	Database Migration Readiness Checklist
+	5.	Query Performance Tuning Checklist
+	6.	Azure SQL Elastic Pool Suitability Estimator
+	7.	Backup & Restore Strategy Selector
+	8.	Azure SQL Security Checklist (TDE, firewall, AAD)
+	9.	Index Optimization Checklist
+	10.	Connection Pool Sizing Calculator
+	11.	Azure SQL High Availability Setup Checklist
+	12.	Read Replica Strategy Selector
+	13.	Azure SQL vs SQL Server on VM Decision Tool
+	14.	Data Masking & Compliance Checklist (GDPR)
+	15.	Azure SQL Monitoring Checklist (Query Store, DMVs)
+	16.	Database Size Growth Estimator
+
+
+🦜 LangSmith
+	1.	LLM Trace Debugging Checklist
+	2.	Prompt Version Control Checklist
+	3.	LangSmith Dataset Size Estimator
+	4.	Evaluation Metric Selector (for LLM outputs)
+	5.	LangChain + LangSmith Integration Checklist
+	6.	LLM Latency Benchmarker
+	7.	Prompt Regression Testing Checklist
+	8.	Token Usage Cost Estimator (per run)
+	9.	LangSmith Project Organization Checklist
+	10.	Human Feedback Loop Setup Checklist
+	11.	LLM Output Quality Scoring Tool
+	12.	A/B Prompt Testing Setup Checklist
+	13.	LangSmith vs Weights & Biases Decision Tool
+	14.	RAG Pipeline Evaluation Checklist
+	15.	LLM Monitoring Alert Setup Checklist
+	16.	Production LLM Observability Checklist
+
+
+📊 New Relic
+	1.	New Relic Agent Setup Checklist
+	2.	APM Alert Threshold Calculator
+	3.	Error Rate Benchmarker
+	4.	New Relic Dashboard Design Checklist
+	5.	SLO / SLA Definition Tool
+	6.	Apdex Score Interpreter
+	7.	New Relic Pricing Plan Selector
+	8.	Log Management Strategy Checklist
+	9.	Distributed Tracing Setup Checklist
+	10.	Infrastructure Monitoring Checklist
+	11.	New Relic vs Datadog Decision Tool
+	12.	Synthetic Monitoring Setup Checklist
+	13.	NRQL Query Complexity Estimator
+	14.	Incident Response Runbook Checklist
+	15.	New Relic Browser Agent Setup Checklist
+	16.	Observability Maturity Level Assessor
+
+
+
+☁️ Cloud Engineer Certification
+	1.	Cloud Certification Path Selector (AWS, GCP, Azure)
+	2.	Study Hours Estimator by Certification Level
+	3.	Exam Readiness Score Self-Assessment
+	4.	Cloud Certification ROI Estimator (salary impact)
+	5.	Practice Exam Score Tracker
+	6.	Certification Renewal Timeline Planner
+	7.	AWS vs Azure vs GCP Cert Comparison Tool
+	8.	Study Resource Selector (official docs, courses, labs)
+	9.	Lab Practice Hours Estimator
+	10.	Weak Domain Identifier Checklist (by exam domain %)
+	11.	Certification Exam Cost Estimator (exam + retakes)
+	12.	Associate vs Professional vs Specialty Decision Tool
+	13.	Cloud Hands-On Lab Checklist
+	14.	Flashcard Topic Generator Checklist
+	15.	Certification Study Schedule Planner
+	16.	Cloud Engineer Skills Gap Assessor
+
+￼
+
+
+💬 Slack
+	1.	Slack Workspace Setup Checklist
+	2.	Channel Architecture Planner
+	3.	Slack Notification Overload Score Calculator
+	4.	Bot & Automation Complexity Estimator
+	5.	Slack vs Teams Decision Tool
+	6.	Workflow Builder Complexity Estimator
+	7.	Slack Connect Setup Checklist (external orgs)
+	8.	Message Retention Policy Selector
+	9.	Slack Pricing Plan Selector
+	10.	Huddle vs Meeting Decision Tool
+	11.	Slack App Integration Selector
+	12.	Channel Naming Convention Checklist
+	13.	Slack Security & Compliance Checklist
+	14.	Remote Team Communication Health Score
+	15.	Slack Etiquette Checklist
+	16.	Slack Storage Usage Estimator
+
+
+
+📝 Notion
+	1.	Notion Workspace Architecture Planner
+	2.	Database Relation Complexity Estimator
+	3.	Notion vs Confluence Decision Tool
+	4.	Template Complexity Estimator
+	5.	Notion AI Usage Cost Estimator
+	6.	Personal Productivity System Checklist (Notion)
+	7.	Team Wiki Setup Checklist
+	8.	Notion Pricing Plan Selector
+	9.	Property Type Selector (text, select, relation, formula…)
+	10.	Notion Formula Complexity Estimator
+	11.	OKR Tracker Setup Checklist (Notion)
+	12.	Notion API Integration Readiness Checklist
+	13.	Content Calendar Setup Checklist (Notion)
+	14.	Knowledge Base Migration Checklist (to Notion)
+	15.	Notion Page Hierarchy Depth Estimator
+	16.	Second Brain Setup Checklist (PARA Method)
+
+
+
+🤖 RPA (Robotic Process Automation)
+	1.	RPA Process Suitability Assessor
+	2.	Automation ROI Estimator
+	3.	Bot Development Time Estimator
+	4.	RPA Tool Selector (UiPath vs Power Automate vs Automation Anywhere)
+	5.	Process Complexity Score Calculator
+	6.	RPA Maintenance Cost Estimator
+	7.	Human-in-the-Loop Decision Tool
+	8.	RPA Exception Handling Checklist
+	9.	Bot License Cost Estimator
+	10.	Process Mining Readiness Checklist
+	11.	RPA Security & Compliance Checklist
+	12.	Attended vs Unattended Bot Decision Tool
+	13.	RPA Scalability Estimator
+	14.	Process Documentation Checklist (pre-automation)
+	15.	RPA Failure Rate Risk Estimator
+	16.	RPA CoE (Center of Excellence) Setup Checklist
+
+
+
+📄 CV / Resume
+	1.	ATS Compatibility Score Checklist
+	2.	CV Length Recommender (by experience level)
+	3.	Keyword Density Estimator (by job description)
+	4.	Skills Gap Identifier (CV vs job posting)
+	5.	Resume Format Selector (chronological, functional, hybrid)
+	6.	CV Impact Statement Strength Checker
+	7.	LinkedIn vs CV Consistency Checklist
+	8.	Portfolio Link Readiness Checklist
+	9.	CV Tailoring Effort Estimator (per application)
+	10.	Cover Letter Necessity Decision Tool
+	11.	Career Gap Explainer Checklist
+	12.	CV Section Priority Ranker (by industry)
+	13.	Salary Expectation Range Estimator
+	14.	Interview Callback Rate Estimator
+	15.	CV Translation Checklist (changing industries)
+	16.	Senior vs Junior CV Tone Checklist
+
+￼
+
+
+
+
+ WooCommerce
+	1.	WooCommerce Store Setup Checklist
+	2.	Plugin Conflict Risk Estimator
+	3.	WooCommerce Hosting Requirements Estimator
+	4.	Payment Gateway Selector
+	5.	WooCommerce SEO Checklist
+	6.	Store Performance Score Calculator
+	7.	Product Catalog Size Estimator (performance impact)
+	8.	WooCommerce vs Shopify Decision Tool
+	9.	Shipping Method Complexity Estimator
+	10.	Tax Configuration Checklist (by region)
+	11.	WooCommerce Security Hardening Checklist
+	12.	Abandoned Cart Recovery Setup Checklist
+	13.	WooCommerce Pricing Plan Estimator (plugins cost)
+	14.	Checkout Conversion Rate Optimizer Checklist
+	15.	Multi-Currency Setup Checklist
+	16.	WooCommerce Scaling Readiness Assessor
+
+ MVVM (Model-View-ViewModel)
+	1.	MVVM Pattern Suitability Assessor
+	2.	ViewModel Complexity Estimator
+	3.	Data Binding Complexity Score Calculator
+	4.	MVVM vs MVC vs MVP Decision Tool
+	5.	ViewModel Responsibility Audit Checklist
+	6.	Command Pattern Implementation Checklist
+	7.	Observable Properties Complexity Estimator
+	8.	MVVM Framework Selector (Android, iOS, WPF, Vue…)
+	9.	Unit Test Coverage Estimator (ViewModels)
+	10.	Dependency Injection Setup Checklist
+	11.	Repository Pattern Integration Checklist
+	12.	LiveData vs StateFlow Decision Tool
+	13.	MVVM Folder Structure Checklist
+	14.	Two-Way Binding Risk Assessor
+	15.	MVVM Refactor Effort Estimator (from MVC)
+	16.	MVVM Code Review Checklist
 
