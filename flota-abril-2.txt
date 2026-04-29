@@ -5,53 +5,6 @@ SEGUNDA OLA
 
 
 
-🟠 VITE.JS
-Config y setup
-	•	vite config generator
-	•	vite.config.ts generator
-	•	vite config builder
-	•	vite plugins reference
-	•	vite aliases config
-	•	vite env variables guide
-	•	vite proxy config generator
-	•	vite build config
-	•	vite preview config
-	•	vite base URL config
-	•	vite define config
-Por framework
-	•	vite react setup
-	•	vite vue setup
-	•	vite svelte setup
-	•	vite solidjs setup
-	•	vite vanilla setup
-	•	vite typescript config
-	•	vite tailwind setup
-	•	create vite guide
-Optimización
-	•	vite code splitting
-	•	vite chunk config
-	•	vite rollup options
-	•	vite build output config
-	•	vite asset handling
-	•	vite HMR speed
-	•	vite preload config
-	•	vite library mode
-	•	vite SSR config
-	•	vite vs webpack speed
-	•	vite vs turbopack comparison
-
-🔴 SOLID JS
-Conceptos y reactivity
-	•	SolidJS signals tutorial
-	•	SolidJS createSignal guide
-	•	SolidJS createEffect reference
-	•	SolidJS createMemo reference
-	•	SolidJS createStore guide
-	•	SolidJS reactivity explained
-	•	SolidJS vs React comparison
-	•	SolidJS fine-grained reactivity
-	•	SolidJS signals vs useState
-	•	SolidJS context guide
 Componentes y JSX
 	•	SolidJS component generator
 	•	SolidJS JSX reference
