@@ -3,6 +3,22 @@
 Nota general: mantengo los nombres de herramienta/keyword en inglés porque es donde vive el volumen de búsqueda real (igual que en tu flota de 700 tools). Muchos de estos son viables 100% client-side con `ffmpeg.wasm`, Canvas API y Web Audio API — sin backend, coherente con el hosting estático que ya usas.
 
 ---
+HECHO:
+video-aspect-ratio-calculator
+video-compression-ratio-calculator
+video-duration-calculator
+video-encoding-time-estimator
+video-file-size-calculator
+video-file-size-estimator
+video-filtrate-calculator
+video-fps-calculator
+video-keyframe-interval-calculator
+video-letterbox-pillarbox-calculator
+video-pixel-aspect-ratio-calculator
+video-render-time-calculator
+video-storage-size-calculator
+video-streaming-bitrate-abr-calculator
+---
 
 ## 🎬 VIDEO
 
