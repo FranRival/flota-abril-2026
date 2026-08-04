@@ -1,3 +1,17 @@
+-agunlado-cqlculadora  
+-clabe-validator  
+-curp-calculadora  
+-curp-decodificador  
+-curp-validator  
+-finiquito-calculadora  
+-liquidacion-calculadora  
+-prima-vacacional-calculadora  
+-rfc-calculadora  
+-rfc-decodificador  
+-vacqciones-calculadora  
+
+
+
 CURP
 
 	•	qué es mi CURP / cómo saber mi CURP
