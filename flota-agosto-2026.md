@@ -90,6 +90,25 @@ video-streaming-bitrate-abr-calculator
 
 ---
 
+hecho:  
+image aspect rqtio calculator  
+image bit depth checker  
+imqge volor contrast checker   
+image color palette extractor  
+imge dimension calculator 
+image compression rqtio checker  
+imge dpi calculator  
+image dominant color finder  
+image file size calculator  
+image exif viewer r3mover  
+image formwt identifier  
+image hash generqtor  
+image histogram viewer  
+image megapixel cqlculator  
+imgae resolution print size calculator  
+
+
+
 ## 🖼️ IMÁGENES
 
 ### Procesamiento / Análisis
