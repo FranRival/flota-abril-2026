@@ -175,6 +175,24 @@ imgae resolution print size calculator
 
 ---
 
+HECHO:
+audio-bitrate-calculator
+audio-bpm-detector
+audio-clipping-detector
+audio-duration-calculator
+audio-file-size-calculator
+audio-fingerprint-hash-checker
+audio-format-identifier
+audio-id3-metadata-viewer
+audio-key-detector
+audio-loudness-meter
+audio-pithc-detector
+audio-sample-rate-converter-info
+audio-silence-detector
+audio-spectrogram-generator
+audio-waveform-viewer
+
+
 ## 🔊 SONIDO / AUDIO
 
 ### Procesamiento / Análisis
