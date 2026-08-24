@@ -91,3 +91,14 @@ extension
 
 	•	EN: email bot response generator, sms bot cost calculator, voice bot script generator, ivr bot flow builder
 	•	ES: generador flujo ivr, calculadora costo bot sms
+
+
+
+
+No construidas — requieren backend real o son productos completos, no “tools”:  
+
+
+	•	Discord Bot Maker (crear un bot completo no es viable client-side, necesita backend + hosting)
+	•	WhatsApp Bot Creator gratis (mismo caso, requiere integración real con la API de Meta)
+	•	WhatsApp Business API Simulator (simular la API real requiere servidor)
+	•	Chatbot Builder no-code (es un producto completo, no una tool puntual)
